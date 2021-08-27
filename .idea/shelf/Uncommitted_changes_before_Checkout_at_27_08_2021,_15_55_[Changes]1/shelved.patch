@@ -1,0 +1,15 @@
+Index: YM_3-1.V2.py
+===================================================================
+diff --git a/YM_3-1.V2.py b/YM_3-1.V2.py
+deleted file mode 100644
+--- a/YM_3-1.V2.py	
++++ /dev/null	
+@@ -1,8 +0,0 @@
+-"""
+-try:
+-    num = int(input("Enter number: "))
+-"""
+-
+-num = int(input("Enter number: "))
+-
+-num = num / 0
