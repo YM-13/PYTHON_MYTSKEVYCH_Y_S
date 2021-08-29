@@ -5,14 +5,10 @@
 пользователе одной строкой.
 """
 
-def person_data ():
-    name = input('Введите ваше имя: ')
-    surname = input('Введите вашу фамилию: ')
-    year_of_birth = input('Введите ваш год рождения: ')
-    city = input('Введите ваш город проживания: ')
-    email = input('Введите ваш e-mail: ')
-    tel_num = input('Введите ваш номер телефона: ')
-    total = [f'ВАШИ ДАННЫЕ: Имя: {name}, Фамилия: {surname}, Год рождения: {year_of_birth}, Город проживания: {city}, Ваш адрес E-mail: {email}, Ваш номер телефона: {tel_num}']
-    return total
-tot = person_data()
-print(tot)
+
+def person_data(**kwargs):
+    return kwargs
+
+
+print(person_data(Имя='Юрий', Фамилия='Мицкевич', Год_рождения='1981', Город='Одесса', email='pe.syuerte@gmail.com',
+                  Тел='+380503164208'))

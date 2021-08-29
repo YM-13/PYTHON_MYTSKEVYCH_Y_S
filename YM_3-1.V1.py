@@ -14,4 +14,3 @@ except ZeroDivisionError:
     print("На ноль делить нельзя! Введите число (делитель) отличное  от нуля!: ")
 else:
     print(f'Вычисляем: {num_1 / num_2}')
-
