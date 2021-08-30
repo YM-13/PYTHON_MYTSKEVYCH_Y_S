@@ -3,7 +3,6 @@
 возвращает сумму наибольших двух аргументов.
 """
 
-
 def my_func():
     n_1 = int(input('Введите число: '))
     n_2 = int(input('Введите число: '))
@@ -11,7 +10,6 @@ def my_func():
     x = (min(n_1, n_2, n_3))
     sum = n_1 + n_2 + n_3 - x
     return sum
-
 
 tot = my_func()
 print(tot)
