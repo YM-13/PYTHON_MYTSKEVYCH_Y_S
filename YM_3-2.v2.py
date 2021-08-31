@@ -9,6 +9,5 @@
 def person_data(**kwargs):
     return kwargs
 
-
 print(person_data(Имя='Юрий', Фамилия='Мицкевич', Год_рождения='1981', Город='Одесса', email='pe.syuerte@gmail.com',
                   Тел='+380503164208'))

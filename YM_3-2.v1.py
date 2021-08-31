@@ -16,6 +16,5 @@ def person_data():
     total = [f'ВАШИ ДАННЫЕ: Имя: {name}, Фамилия: {surname}, Год рождения: {year_of_birth}, Город проживания: {city}, Ваш адрес E-mail: {email}, Ваш номер телефона: {tel_num}']
     return total
 
-
 tot = person_data()
 print(tot)
