@@ -4,17 +4,23 @@
 время выполнения расчёта для конкретных значений необходимо запускать скрипт с
 параметрами.
 """
-
 from sys import argv
 
-name, s_1, s_2, s_3 = argv
-print(argv)
-print(s_1)
-print(s_2)
-print(s_3)
+name, hours, const, add = argv
 
-def my_zp():
-    name, s_1, s_2, s_3 = argv
-    zp = s_1 * s_2 + s_3
-    return zp
-print(my_zp())
+
+def my_earn():
+    for i in argv[1:4]:
+        try:
+            i = float(i)
+        except ValueError:
+            a = ["Среди введенных Вами данных содержится отличные от цифр символы. Повторите ввод!!!"]
+            return a
+    h = float(argv[1])
+    c = float(argv[2])
+    v = float(argv[3])
+    gg = h * c + v
+    return gg
+
+
+print(my_earn())
