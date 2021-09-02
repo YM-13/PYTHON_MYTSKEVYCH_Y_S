@@ -6,9 +6,11 @@
 """
 from sys import argv
 name, hours, const, add  = argv
-
+h = int(hours)
+c = int(const)
+a = int(add)
 def my_earn(argv):
     res = ((hours * const) + add)
     return res
-print(my_earn())
+print(my_earn(argv))
 

@@ -4,6 +4,8 @@
     <list default="true" id="fa35be3e-a9a3-4cfa-9f19-329a7aefc5e2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/My_Library.py" beforeDir="false" afterPath="$PROJECT_DIR$/My_Library.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEST_My_Library.py" beforeDir="false" afterPath="$PROJECT_DIR$/TEST_My_Library.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YM_4-1.v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/YM_4-1.v1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +47,28 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.python" />
   </component>
-  <component name="RunManager" selected="Python.SCRIPT_SYS_ARGV">
+  <component name="RunManager" selected="Python.TEST_My_Library">
+    <configuration name="My_Library" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PYTHON_MYTSKEVYCH_17.08.2021" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/My_Library.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="SCRIPT_SYS_ARGV" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PYTHON_MYTSKEVYCH_17.08.2021" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="YM_3-4.v2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="YM_4-1.v1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PYTHON_MYTSKEVYCH_17.08.2021" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,28 +123,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/YM_3-4.v2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="YM_3-5.v1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PYTHON_MYTSKEVYCH_17.08.2021" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/YM_3-5.v1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/YM_4-1.v1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.SCRIPT_SYS_ARGV" />
         <item itemvalue="Python.TEST_My_Library" />
+        <item itemvalue="Python.My_Library" />
+        <item itemvalue="Python.YM_4-1.v1" />
+        <item itemvalue="Python.SCRIPT_SYS_ARGV" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.YM_3-5.v1" />
-        <item itemvalue="Python.YM_3-4.v2" />
       </list>
     </recent_temporary>
   </component>
