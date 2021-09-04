@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa35be3e-a9a3-4cfa-9f19-329a7aefc5e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ability_for_write.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manager_context.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/r_text_l_5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rezimi_r_w_a....py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/w_text_l_5_(w_....).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wl_text_l_5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wl_text_l_5_(w_....).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/write.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/writelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ability_for_read.py" beforeDir="false" afterPath="$PROJECT_DIR$/ability_for_read.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/open_read.py" beforeDir="false" afterPath="$PROJECT_DIR$/open_read.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/open_read_(6).py" beforeDir="false" afterPath="$PROJECT_DIR$/open_read_(6).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/open_readline.py" beforeDir="false" afterPath="$PROJECT_DIR$/open_readline.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/open_readlines.py" beforeDir="false" afterPath="$PROJECT_DIR$/open_readlines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text_l_5.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/json.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
