@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa35be3e-a9a3-4cfa-9f19-329a7aefc5e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ability_for_read.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/open_read.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/open_read_(6).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/open_readline.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/open_readlines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text_l_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ability_for_write.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager_context.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r_text_l_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rezimi_r_w_a....py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w_text_l_5_(w_....).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wl_text_l_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wl_text_l_5_(w_....).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/write.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writelines.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability_for_read.py" beforeDir="false" afterPath="$PROJECT_DIR$/ability_for_read.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/open_read.py" beforeDir="false" afterPath="$PROJECT_DIR$/open_read.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/open_read_(6).py" beforeDir="false" afterPath="$PROJECT_DIR$/open_read_(6).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/open_readline.py" beforeDir="false" afterPath="$PROJECT_DIR$/open_readline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/open_readlines.py" beforeDir="false" afterPath="$PROJECT_DIR$/open_readlines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text_l_5.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +69,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ability_for_read">
+  <component name="RunManager" selected="Python.rezimi_r_w_a...">
     <configuration name="ability_for_read" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PYTHON_MYTSKEVYCH_17.08.2021" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,7 +91,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="open_read" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ability_for_write" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PYTHON_MYTSKEVYCH_17.08.2021" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,49 +103,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/open_read.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="open_read_(6)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PYTHON_MYTSKEVYCH_17.08.2021" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/open_read_(6).py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="open_readline" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PYTHON_MYTSKEVYCH_17.08.2021" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/open_readline.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ability_for_write.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,13 +133,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="rezimi_r_w_a..." type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PYTHON_MYTSKEVYCH_17.08.2021" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rezimi_r_w_a....py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="write" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PYTHON_MYTSKEVYCH_17.08.2021" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/write.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.rezimi_r_w_a..." />
+        <item itemvalue="Python.ability_for_write" />
+        <item itemvalue="Python.write" />
         <item itemvalue="Python.ability_for_read" />
         <item itemvalue="Python.open_readlines" />
-        <item itemvalue="Python.open_read_(6)" />
-        <item itemvalue="Python.open_readline" />
-        <item itemvalue="Python.open_read" />
       </list>
     </recent_temporary>
   </component>
