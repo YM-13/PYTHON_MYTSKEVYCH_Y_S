@@ -3,13 +3,33 @@
 подсчёт строк и слов в каждой строке.
 """
 
-inp = input('Input: ')
-
-while inp != '':
-    stro = inp
-    with open("5-2.txt", "a", encoding="utf-8") as your_t:
-        your_t.writelines(f"{stro}s\n")
-    inp = input('Input: ')
 with open("5-2.txt", "r", encoding="utf-8") as your_txt:
-    cont = your_txt.read()
-    print(f'Вы ввели следующее:\n {cont}')
+    cont = (your_txt.read())
+    print(cont)
+it = []
+with open("5-2.txt", "r", encoding="utf-8") as your_txt:
+    sent = your_txt.readlines()
+    n_w = len(sent)
+    print(f'В текстовом файле {n_w} стро(-ка, -ки, -к)\n')
+    for i in sent:
+        l = len((i).split())
+        it.append(l)
+    print(f'Ниже выведена информация в следующем порядке:\n"порядковый номер строки", "количество слов"')
+    for i in enumerate(it, 1):
+        print(i)
+
+
+
+#    print(f"Количество строк:", cont.count('\n'))
+
+ #   print(list((sent).split()))
+
+
+"""  
+#    print(f"Количество строк:", sent.count('\n'))
+while c > 0:
+        x = cont.index('\n')
+        print(x)
+        c = c - 1
+ #   print(cont.split('\n'))
+"""
