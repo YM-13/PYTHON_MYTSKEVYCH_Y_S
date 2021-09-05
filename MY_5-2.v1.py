@@ -12,24 +12,8 @@ with open("5-2.txt", "r", encoding="utf-8") as your_txt:
     n_w = len(sent)
     print(f'В текстовом файле {n_w} стро(-ка, -ки, -к)\n')
     for i in sent:
-        l = len((i).split())
+        l = len(i.split())
         it.append(l)
     print(f'Ниже выведена информация в следующем порядке:\n"порядковый номер строки", "количество слов"')
     for i in enumerate(it, 1):
         print(i)
-
-
-
-#    print(f"Количество строк:", cont.count('\n'))
-
- #   print(list((sent).split()))
-
-
-"""  
-#    print(f"Количество строк:", sent.count('\n'))
-while c > 0:
-        x = cont.index('\n')
-        print(x)
-        c = c - 1
- #   print(cont.split('\n'))
-"""

@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa35be3e-a9a3-4cfa-9f19-329a7aefc5e2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/text_3.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5-2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/5-2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MY_5-1.v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/MY_5-1.v1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MY_5-2.v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/MY_5-2.v1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MY_5-3.v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/MY_5-3.v1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +57,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.MY_5-2.v1">
+  <component name="RunManager" selected="Python.MY_5-3.v1">
     <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PYTHON_MYTSKEVYCH_17.08.2021" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,7 +121,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="rezimi_r_w_a..." type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="MY_5-3.v1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PYTHON_MYTSKEVYCH_17.08.2021" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -133,7 +133,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rezimi_r_w_a....py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MY_5-3.v1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MY_5-3.v1" />
         <item itemvalue="Python.MY_5-2.v1" />
         <item itemvalue="Python.MY_5-1.v1" />
         <item itemvalue="Python.1" />
         <item itemvalue="Python.write" />
-        <item itemvalue="Python.rezimi_r_w_a..." />
       </list>
     </recent_temporary>
   </component>
@@ -317,49 +317,54 @@
           <option name="timeStamp" value="203" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/MY_5-2.v1.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="242" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/MY_5-2.v1.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="243" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/MY_5-2.v1.py</url>
-          <line>10</line>
-          <option name="timeStamp" value="244" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/MY_5-2.v1.py</url>
+          <url>file://$PROJECT_DIR$/MY_5-3.v1.py</url>
           <line>11</line>
-          <option name="timeStamp" value="245" />
+          <option name="timeStamp" value="255" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/MY_5-2.v1.py</url>
-          <line>19</line>
-          <option name="timeStamp" value="250" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/MY_5-2.v1.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="251" />
+          <url>file://$PROJECT_DIR$/MY_5-3.v1.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="256" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/MY_5-2.v1.py</url>
           <line>13</line>
-          <option name="timeStamp" value="252" />
+          <option name="timeStamp" value="257" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/MY_5-2.v1.py</url>
           <line>14</line>
-          <option name="timeStamp" value="253" />
+          <option name="timeStamp" value="258" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/MY_5-2.v1.py</url>
-          <line>18</line>
-          <option name="timeStamp" value="254" />
+          <line>15</line>
+          <option name="timeStamp" value="259" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MY_5-3.v1.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="260" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MY_5-3.v1.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="262" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MY_5-3.v1.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="270" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MY_5-3.v1.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="271" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MY_5-3.v1.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="274" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
