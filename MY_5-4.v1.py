@@ -8,23 +8,19 @@ Four — 4
 этом английские числительные должны заменяться на русские. Новый блок строк должен
 записываться в новый текстовый файл.
 """
-from typing import TextIO
-
 my_dict = {'One': 'Один', 'Two': 'Два', 'Three': 'Три', 'Four': 'Четыре'}
-file1 = open("text_4.txt", "r") #, incoding="utf8")
+file1 = open("text_4.txt", "r")
 while True:
     line = file1.readline()
-    print(type(line))
-    lin = line.split('\n')
-    print(len(lin))
+    lin = line.split()
     if not line:
         break
+    c = lin[0]
     for key in my_dict.keys():
-        print(key)
-"""        if key = line[0]
-    print(line.strip())
-    
-with open("text_4.txt", "r", incoding="utf8") as text:
-    for i in
-    cont = text.readline()
-"""
+        if key == c:
+            ch = my_dict[key]
+            lin[0] = ch
+            lin = ' '.join(lin)
+            with open("text_4-1.txt", "a", encoding="utf-8") as sentens:
+                text = sentens.write(f'{lin}\n')
+    continue
