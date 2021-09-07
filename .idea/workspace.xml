@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa35be3e-a9a3-4cfa-9f19-329a7aefc5e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MY_5-5.v1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YM_5-6.v1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YM_5-7.v1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text_4-1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_08_2021,_09_32_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_08_2021__09_32__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MY_5-1.v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/MY_5-1.v1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MY_5-4.v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/MY_5-4.v1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YM_5-6.v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/YM_5-6.v1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/text_6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/text_6.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -324,71 +315,6 @@
           <url>file://$PROJECT_DIR$/1.py</url>
           <line>14</line>
           <option name="timeStamp" value="203" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/YM_5-6.v1.py</url>
-          <line>16</line>
-          <option name="timeStamp" value="343" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/YM_5-6.v1.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="344" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/YM_5-6.v1.py</url>
-          <line>18</line>
-          <option name="timeStamp" value="345" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/YM_5-6.v1.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="347" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/YM_5-6.v1.py</url>
-          <line>32</line>
-          <option name="timeStamp" value="357" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/YM_5-6.v1.py</url>
-          <line>24</line>
-          <option name="timeStamp" value="358" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/YM_5-6.v1.py</url>
-          <line>28</line>
-          <option name="timeStamp" value="359" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/YM_5-6.v1.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="360" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/YM_5-6.v1.py</url>
-          <line>26</line>
-          <option name="timeStamp" value="361" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/YM_5-6.v1.py</url>
-          <line>27</line>
-          <option name="timeStamp" value="363" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/YM_5-6.v1.py</url>
-          <line>29</line>
-          <option name="timeStamp" value="370" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/YM_5-6.v1.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="372" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/YM_5-6.v1.py</url>
-          <line>34</line>
-          <option name="timeStamp" value="379" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

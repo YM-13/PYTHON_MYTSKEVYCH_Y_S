@@ -16,27 +16,24 @@ for_dict2 = []
 dict = {}
 data = open("text_6.txt", "r")
 while True:
-    stri = data.readline()
-    if stri == '\n':
+    strip = data.readline()
+    if strip == "\n":
         continue
-    strip = stri.split()
-    #if not strip:
-        #continue
-    key = str(strip[0])
+    strip = strip.split()
+    if len(strip) == 0:
+        break
+    key = strip.pop(0)
     for_dict.append(key)
-    st = strip.pop(0)
+    st = strip
     for ii in st:
         num = [i for i in ii if i.isdigit()]
         if not num:
             continue
-        num = int(''.join(num))
-        for_dict2.append(num)
-        for_dict2 = [sum(for_dict2)]
-    ad_dict = zip(for_dict, for_dict2)
-    dict.update(ad_dict)
+        for_dict2.append(int(''.join(num)))
+    for_dict2 = [sum(for_dict2)]
+    dict.update(zip(for_dict, for_dict2))
     for_dict.clear()
     for_dict2.clear()
     continue
-print(dict)
-
+print(f'Выводим содержание словаря:\n{dict}')
 data.close()
