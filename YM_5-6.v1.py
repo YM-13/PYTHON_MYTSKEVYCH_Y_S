@@ -22,8 +22,7 @@ while True:
     strip = strip.split()
     if len(strip) == 0:
         break
-    key = strip.pop(0)
-    for_dict.append(key)
+    for_dict = [strip.pop(0)]
     st = strip
     for ii in st:
         num = [i for i in ii if i.isdigit()]
@@ -32,7 +31,6 @@ while True:
         for_dict2.append(int(''.join(num)))
     for_dict2 = [sum(for_dict2)]
     dict.update(zip(for_dict, for_dict2))
-    for_dict.clear()
     for_dict2.clear()
     continue
 print(f'Выводим содержание словаря:\n{dict}')
