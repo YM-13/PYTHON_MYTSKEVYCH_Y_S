@@ -14,9 +14,19 @@
 """
 
 class TrafficLight:
-    # атрибут: color
-    color =
 
+    # конструкторб, атрибуты объекта. Атрибут - (приватный): color
+    def __init__(self, c, t):
+        self.__color = c
+        self.timer = t
     # метод: running
-    def on_start(self):
-        running
+    def on_start(self, speed):
+        print()running
+
+    def on_stop(self):
+
+red = TrafficLight
+
+yellow = TrafficLight
+
+green = TrafficLight
