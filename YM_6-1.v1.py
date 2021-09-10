@@ -12,21 +12,42 @@
 Задачу можно усложнить, реализовав проверку порядка режимов. При его нарушении
 выводить соответствующее сообщение и завершать скрипт.
 """
+import time
+
 
 class TrafficLight:
+    red_sec = 7
+    yel_sec = 2
+    gre_sec = 7
 
-    # конструкторб, атрибуты объекта. Атрибут - (приватный): color
-    def __init__(self, c, t):
-        self.__color = c
-        self.timer = t
-    # метод: running
-    def on_start(self, speed):
-        print()running
+    def __init__(self, r, y, g):
+        while True:
+            self.__color_r = r
+            self.__color_y = y
+            self.__color_g = g
+            self.running()
 
-    def on_stop(self):
+    def running(self):
+        print(self.__color_r, end='')
+        time.sleep(self.red_sec)
+        print('\r', end='')
+        print(self.__color_y, end='')
+        time.sleep(self.yel_sec)
+        print('\r', end='')
+        print(self.__color_g, end='')
+        time.sleep(self.gre_sec)
+        print('\r', end='')
+        print(self.__color_y, end='')
+        time.sleep(self.yel_sec)
+        print('\r', end='')
 
-red = TrafficLight
 
-yellow = TrafficLight
+t_l = TrafficLight(f"\033[31m\033[41mXXXXX\033[0m", f"\033[33m\033[43mXXXXX\033[0m",
+                   f"\033[32m\033[42mXXXXX\033[0m")
+t_l.running()
 
-green = TrafficLight
+"""
+https://all-python.ru/osnovy/tsvetnoj-vyvod-teksta.html
+https://en.wikipedia.org/wiki/ANSI_escape_code
+https://stackoverflow.com/questions/287871/how-to-print-colored-text-in-terminal-in-python
+"""

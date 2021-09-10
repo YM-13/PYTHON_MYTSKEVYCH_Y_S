@@ -9,3 +9,20 @@
 ● проверить работу метода.
 Например: 20 м*5000 м*25 кг*5 см = 12500 т.
 """
+
+
+class Road:
+    pass
+
+    def __init__(self, l, w):
+        self._length = l
+        self._width = w
+
+    def calcul(self, h):
+        valu = (self._length * self._width * 25 * h) / 1000
+        print(f'При весе 1 кв.м. асфальта толщиной 1 см, асфальт дороги длинной {self._length} м, '
+              f'шириной {self._width} м и толщиной полотна в {h} см будет весить {valu} тонн')
+
+
+around_citi = Road(20, 5000)
+around_citi.calcul(5)
