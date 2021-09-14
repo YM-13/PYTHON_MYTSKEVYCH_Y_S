@@ -11,32 +11,29 @@ __init__()), который должен принимать данные (спи
 Подсказка: сложение элементов матриц выполнять поэлементно — первый элемент первой
 строки первой матрицы складываем с первым элементом первой строки второй матрицы и т.д.
 """
-
+import numpy as np
 
 class Matrix:
     def __init__(self, matrix):
         self.matrix = matrix
-
-    #   def __add__(self, other):
-    #       return np.array(self.matrix)
-
+"""
+    def __add__(self, other):
+        return np.array(self.matrix)
+"""
     def __str__(self):
-        #        с = len(self.matrix)
+        g = []
         for i in range(len(self.matrix)):
-            ob = (self.matrix)[i]
-            g = []
-            for x in ob:
-                x = str(x)
-                g.append(x)
-            itog = ' '.join(g)
-            print(itog)
-#        return itog
-#        for x, y in self.matrix:
-#           print(x, '', y)
-#            return t
-#             print(f'e{self.matrix}')
+            g.append([])
+            for x in range(len(self.matrix[i])):
+                g[i].append(str(self.matrix[i][x]))
+            g[i] = ' '.join(g[i]) + "\n"
+        itog = ' '.join(g)
+        print(itog)
 
 mat_1 = Matrix([[1, 2], [3, 4], [5, 6]])
 mat_2 = Matrix([[7, 8], [9, 6], [3, 5]])
 print(mat_1)
 print(mat_2)
+
+#        for x, y in self.matrix:
+#           print(x, '', y)
