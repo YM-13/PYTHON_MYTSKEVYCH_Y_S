@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa35be3e-a9a3-4cfa-9f19-329a7aefc5e2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/777.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/888.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YM_7-1v.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/YM_7-1v.1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YM_7-2.v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/YM_7-2.v1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YM_7-3.v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/YM_7-3.v1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +52,8 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.YM_7-1v.1">
-    <configuration name="YM_3-4.v1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.777">
+    <configuration name="777" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PYTHON_MYTSKEVYCH_17.08.2021" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -61,7 +65,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/YM_3-4.v1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/777.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.777" />
         <item itemvalue="Python.YM_7-1v.1" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.YM_3-5.v1" />
         <item itemvalue="Python.YM_3-4.v2" />
-        <item itemvalue="Python.YM_3-4.v1" />
       </list>
     </recent_temporary>
   </component>
@@ -270,64 +274,84 @@
           <option name="timeStamp" value="138" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/YM_7-1v.1.py</url>
+          <url>file://$PROJECT_DIR$/777.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="358" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/777.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="359" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/777.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="360" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/777.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="361" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/777.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="362" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/777.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="363" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/777.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="364" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/777.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="365" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/777.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="366" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/777.py</url>
           <line>16</line>
-          <option name="timeStamp" value="307" />
+          <option name="timeStamp" value="367" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/YM_7-1v.1.py</url>
-          <line>32</line>
-          <option name="timeStamp" value="313" />
+          <url>file://$PROJECT_DIR$/777.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="368" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/YM_7-1v.1.py</url>
-          <line>33</line>
-          <option name="timeStamp" value="314" />
+          <url>file://$PROJECT_DIR$/777.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="369" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/YM_7-1v.1.py</url>
-          <line>34</line>
-          <option name="timeStamp" value="328" />
+          <url>file://$PROJECT_DIR$/777.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="370" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/YM_7-1v.1.py</url>
-          <line>24</line>
-          <option name="timeStamp" value="336" />
+          <url>file://$PROJECT_DIR$/777.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="371" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/YM_7-1v.1.py</url>
-          <line>30</line>
-          <option name="timeStamp" value="344" />
+          <url>file://$PROJECT_DIR$/777.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="372" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/YM_7-1v.1.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="349" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/YM_7-1v.1.py</url>
-          <line>26</line>
-          <option name="timeStamp" value="350" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/YM_7-1v.1.py</url>
-          <line>29</line>
-          <option name="timeStamp" value="353" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/YM_7-1v.1.py</url>
-          <line>27</line>
-          <option name="timeStamp" value="354" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/YM_7-1v.1.py</url>
-          <line>28</line>
-          <option name="timeStamp" value="355" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/YM_7-1v.1.py</url>
-          <line>35</line>
-          <option name="timeStamp" value="356" />
+          <url>file://$PROJECT_DIR$/777.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="373" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

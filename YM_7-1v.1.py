@@ -16,10 +16,7 @@ import numpy as np
 class Matrix:
     def __init__(self, matrix):
         self.matrix = matrix
-"""
-    def __add__(self, other):
-        return np.array(self.matrix)
-"""
+
     def __str__(self):
         g = []
         for i in range(len(self.matrix)):
@@ -27,13 +24,16 @@ class Matrix:
             for x in range(len(self.matrix[i])):
                 g[i].append(str(self.matrix[i][x]))
             g[i] = ' '.join(g[i]) + "\n"
-        itog = ' '.join(g)
-        print(itog)
+        itog = ''.join(g)
+        return itog
+
+    def __add__(self, other):
+        return np.array(self.matrix) + np.array(other.matrix)
 
 mat_1 = Matrix([[1, 2], [3, 4], [5, 6]])
 mat_2 = Matrix([[7, 8], [9, 6], [3, 5]])
 print(mat_1)
 print(mat_2)
-
+print(mat_1 + mat_2)
 #        for x, y in self.matrix:
 #           print(x, '', y)

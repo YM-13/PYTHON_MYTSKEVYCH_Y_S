@@ -10,3 +10,32 @@ H, соответственно.
 знания: реализовать абстрактные классы для основных классов проекта, проверить на
 практике работу декоратора @property.
 """
+from abc import ABC, abstractmethod
+
+
+class Clovse(ABC):
+    @abstractmethod
+    def rashod(self):
+        pass
+
+
+class Palto(Clovse):
+    def __init__(self, v):
+        self.v = v
+
+    @property
+    def rashod(self):
+        return self.v / 6.5 + 0.5
+
+
+class Costum(Clovse):
+    def __init__(self, h):
+        self.h = h
+
+    @property
+    def rashod(self):
+        return 2 * self.h + 0.3
+
+p_1 = Palto(52)
+c_1 = Costum(180)
+print(p_1.rashod + c_1.rashod)
