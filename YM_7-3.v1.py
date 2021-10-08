@@ -26,10 +26,10 @@ make_order() вернет строку: *****\n*****\n**.
 make_order() вернет строку: *****\n*****\n*****.
 """
 
+
 class Kletka:
     def __init__(self, n):
         self.n = n
-        #self.m = m
 
     def __add__(self, other):
         return self.n + other.n
@@ -46,8 +46,14 @@ class Kletka:
     def __truediv__(self, other):
         return self.n // other.n
 
-#    def make_order(self):
+    def make_order(self, row):
+        self.row = row
+        m = self.n // row
+        z = self.n - m * row
+        return (('*' * row + '\n') * m) + '*' * z
+
 
 kl_1 = Kletka(34)
 kl_2 = Kletka(11)
 print(kl_1 - kl_2)
+print(kl_1.make_order(9))
