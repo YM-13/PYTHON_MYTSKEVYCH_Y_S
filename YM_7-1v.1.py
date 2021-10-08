@@ -13,6 +13,7 @@ __init__()), который должен принимать данные (спи
 """
 import numpy as np
 
+
 class Matrix:
     def __init__(self, matrix):
         self.matrix = matrix
@@ -30,10 +31,9 @@ class Matrix:
     def __add__(self, other):
         return np.array(self.matrix) + np.array(other.matrix)
 
+
 mat_1 = Matrix([[1, 2], [3, 4], [5, 6]])
 mat_2 = Matrix([[7, 8], [9, 6], [3, 5]])
 print(mat_1)
 print(mat_2)
 print(mat_1 + mat_2)
-#        for x, y in self.matrix:
-#           print(x, '', y)

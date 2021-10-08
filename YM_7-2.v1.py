@@ -36,6 +36,7 @@ class Costum(Clovse):
     def rashod(self):
         return 2 * self.h + 0.3
 
+
 p_1 = Palto(52)
 c_1 = Costum(180)
 print(p_1.rashod + c_1.rashod)
