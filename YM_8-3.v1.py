@@ -12,3 +12,11 @@
 позволить пользователю ввести текст (не число) и отобразить соответствующее сообщение.
 При этом работа скрипта не должна завершаться.
 """
+
+def multiply(x):
+    return x*2
+
+elements = [1,2,3,4]
+elements_by2 = list(map(multiply, elements))
+
+print(elements_by2)
