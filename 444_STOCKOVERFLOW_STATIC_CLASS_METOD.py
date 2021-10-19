@@ -7,7 +7,7 @@
 """
 
 
-class Date:
+class Date:  # добавить если проверка статик метода фолс, то прекратить работу
 
     def __init__(self, day=0, month=0, year=0):
         self.day = day
@@ -22,11 +22,11 @@ class Date:
     @classmethod
     def from_string(cls, date_str):
         day, month, year = map(int, date_str.split('-'))
-        return f'{day} {month} {year}'
-
+        re_date = cls(day, month, year)
+        return re_date
 
 # dat_com = input('Введите дату в формате дд-мм-гг: ')
-checker = Date.check_date('19-10-2021')  # dat_com
-new_view = Date.from_string('19-10-2021')  # dat_com
+checker = Date.check_date('19-10-2021') # dat_com
+new_view = Date.from_string('19-10-2021') # dat_com
 print(checker)
-print(new_view)  # new_view.day, new_view.month, new_view.year)
+print(new_view.day, new_view.month, new_view.year)

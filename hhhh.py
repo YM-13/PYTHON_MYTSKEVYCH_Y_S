@@ -21,10 +21,16 @@ class MyException(Exception):
             print(err)
         else:
             print(dividend / divider)
-
+"""
+    @classmethod
+    def from_string(cls, date_str):
+        dividend, divider = map(float, date_str.split(':'))
+        nums = cls(dividend, divider)
+        return dividend / divider
+"""
 
 dat_com = input('Введите выражение вида "40:2": ')
 checker = MyException.check_op(dat_com)
-# new_view = MyException.from_string(dat_com)
-# print(checker)
-# print(new_view)
+#new_view = MyException.from_string(dat_com)
+#print(checker)
+#print(new_view)
