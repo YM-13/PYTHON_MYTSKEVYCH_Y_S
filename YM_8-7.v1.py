@@ -5,3 +5,19 @@
 результата.
 """
 
+class Complex_num:
+
+    def __init__(self, z1, z2):
+        self.z1 = z1
+        self.z2 = z2
+
+    def addition(self):
+        cont = self.z1 + self.z2
+        return cont
+"""    def __init__(self, data_str):
+        z_1, z_2 = map(float(data_str.split(':')))
+        self.data_str = data_str
+"""
+
+n = Complex_num('(6+a)', '(4+2a)')
+print(n.addition())

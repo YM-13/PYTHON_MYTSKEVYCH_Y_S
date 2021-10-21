@@ -19,15 +19,18 @@ class MyException_num:
     def __init__(self, data_str):
         self.data_str = data_str
 
+    @staticmethod
     def in_list(data_str):
         list_of_num = []
         lis = data_str
         while lis != []:
             n = lis.pop(0)
-            if n.isdigit() == True:
+            if n.isdigit():
                 list_of_num.append(float(n))
             elif n == 'stop':
                 break
+            else:
+                print(f'Не является числом, введенный вами {n}')
             if lis == []:
                 lis = (input('Введите данные, разделяя их пробелом: ')).split(' ')
         return list_of_num
