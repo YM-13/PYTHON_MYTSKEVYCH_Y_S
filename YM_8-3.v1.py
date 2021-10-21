@@ -13,10 +13,26 @@
 При этом работа скрипта не должна завершаться.
 """
 
-def multiply(x):
-    return x*2
 
-elements = [1,2,3,4]
-elements_by2 = list(map(multiply, elements))
+class MyException_num:
 
-print(elements_by2)
+    def __init__(self, data_str):
+        self.data_str = data_str
+
+    def in_list(data_str):
+        list_of_num = []
+        lis = data_str
+        while lis != []:
+            n = lis.pop(0)
+            if n.isdigit() == True:
+                list_of_num.append(float(n))
+            elif n == 'stop':
+                break
+            if lis == []:
+                lis = (input('Введите данные, разделяя их пробелом: ')).split(' ')
+        return list_of_num
+
+
+h = input(('Введите данные, разделяя их пробелом: ')).split(' ')
+data_1 = MyException_num.in_list(h)
+print(data_1)
