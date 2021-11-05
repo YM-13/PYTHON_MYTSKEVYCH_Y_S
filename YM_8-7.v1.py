@@ -8,40 +8,29 @@
 
 class Complex_num:
 
-    def __init__(self, data):  # z1, m, z2):
-        #        self.z1 = z1
-        #        self.m = m
-        #        self.z2 = z2
-        self.data = data
+    def __init__(self, z1, z2):
+                self.z1 = z1
+                self.z2 = z2
 
     @staticmethod
-    def addition(data):  # (z1, m, z2):
+    def addition(z1, z2):
+        data = list(z1 + z2)
+        time_num = []
         list_num = []
-        l1 = []
-        lis = list(data)  # .split(' ')
-        while lis != []:
-            a = lis.pop(0)
-            if a != str('(') and a != str(')'):
-                if a != str('+') and a != str('-'):
-                    list_num.append(a)   #(lis[0])
-                l1 = ''.join(list_num)
-                continue
-        return sum(z1, )
-"""
-    #        z1 = z1.split()
-    #        z2 = z2.split(' ')
-    for i in range(data):
-        if i != '(' or ')':
-            list_num.append(i)
 
-    cont = z1 + z2
-    return cont
-"""
+        while data != []:
+            a = data.pop(0)
+            if a != str('(') and a != str(')') and a != str('+') and a != str('-'):
+                time_num.append(a)
+            elif a == str('-') or a == str('+'):
+                time_num = ''.join(time_num)
+                list_num.append(float(time_num))
+                time_num = []
+                list_num.append(f'{a}') # что-то здесь не так
+        time_num = ''.join(time_num)
+        list_num.append(float(time_num))
+        print(sum(list_num))
 
-"""    def __init__(self, data_str):
-        z_1, z_2 = map(float(data_str.split(':')))
-        self.data_str = data_str
-"""
 
-n = Complex_num.addition('(61+2) + (4+21)')
+n = Complex_num.addition('(61+2)', '(4+21)')
 print(n.addition())

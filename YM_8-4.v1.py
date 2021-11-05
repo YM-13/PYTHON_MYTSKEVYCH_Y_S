@@ -54,10 +54,10 @@ class Scaner(Orgtehnika):
                 f'Формат документа: {self.max_doc_format}\nЦвет устройства: {self.color}\nГод выпуска: {self.year}\nАртикул: {self.articul}\n'
                 f'Остаток на складе: {self.pce} {Orgtehnika.ci_orgteh}\n{Orgtehnika.n_podcherc}')
 
+
 class Xerox(Orgtehnika):
     def __init__(self, name_type, factory, model, year, articul, pce, color):
         Orgtehnika.__init__(self, name_type, factory, model, year, articul, pce, color)
-
 
     def carta_tovara(self, sposob_pechati, max_paper):  # sposob_pechati
         self.sposob_pechati = sposob_pechati
