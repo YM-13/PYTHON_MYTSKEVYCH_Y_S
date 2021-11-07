@@ -6,6 +6,7 @@
 """
 
 class Orgtehnika:
+
     ci_orgteh = 'шт'
     n_podcherc = '___________________________'
     work_color = 'цветной/черно-белый'
@@ -20,6 +21,16 @@ class Orgtehnika:
         #        self.max_format = max_format
         self.color = color
 
+    @classmethod
+    def derezer(cls, ):
+        gad_info = input('Накладная поставщика: \nНаименование: \nПроизводитель: \n')
+        raspred_dict = dict.fromkeys(['a', 'b', 'c'], gad_info)
+        a = raspred_dict['a']
+        if a == 1:
+            Printer.printer_dict[a1] = a
+
+
+
     def carta_tovara(self):
         print(f'КАРТОЧКА ТОВАРА\nНаименование: {self.name_type}\nПроизводитель: {self.factory}\n'
               f'Модель: {self.model}\nРежим работы: {Orgtehnika.work_color}\n'
@@ -30,6 +41,8 @@ class Orgtehnika:
 class Printer(Orgtehnika):
     def __init__(self, name_type, factory, model, year, articul, pce, color):
         Orgtehnika.__init__(self, name_type, factory, model, year, articul, pce, color)
+
+    printer_dict = {'a1', 'b', 'c'}
 
     def carta_tovara(self, sposob_pechati, max_paper):  # sposob_pechati
         self.sposob_pechati = sposob_pechati
@@ -44,6 +57,8 @@ class Scaner(Orgtehnika):
     def __init__(self, name_type, factory, model, year, articul, pce, color):
         Orgtehnika.__init__(self, name_type, factory, model, year, articul, pce, color)
 
+    scaner_dict = {}
+
     def carta_tovara(self, tip_scanera, max_doc_format):
         self.tip_scanera = tip_scanera
         self.max_doc_format = max_doc_format
@@ -57,6 +72,8 @@ class Xerox(Orgtehnika):
     def __init__(self, name_type, factory, model, year, articul, pce, color):
         Orgtehnika.__init__(self, name_type, factory, model, year, articul, pce, color)
 
+    xero_dict = {}
+
     def carta_tovara(self, sposob_pechati, max_paper):  # sposob_pechati
         self.sposob_pechati = sposob_pechati
         self.max_paper = max_paper
@@ -65,7 +82,7 @@ class Xerox(Orgtehnika):
                 f'Формат документа: {self.max_paper}\nЦвет устройства: {self.color}\nГод выпуска: {self.year}\nАртикул: {self.articul}\n'
                 f'Остаток на складе: {self.pce} {Orgtehnika.ci_orgteh}\n{Orgtehnika.n_podcherc}')
 
-
+Orgtehnika.derezer()
 prin_1 = Printer('Принтер', 'HP', 'CW86', '2021', '45-89', '99', 'Black')
 print(prin_1.carta_tovara('LASER', 'A3'))
 

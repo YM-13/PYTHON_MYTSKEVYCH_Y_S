@@ -74,5 +74,5 @@ print(prin_1.carta_tovara('LASER', 'A3'))
 scan_1 = Scaner('Сканер', 'EPSON', 'YM897-18', '2020', '50-73', '5', 'White')
 print(scan_1.carta_tovara('Планшетный', 'A2'))
 
-xero_1 = Printer('Ксерокс', 'Canon', 'CaXe91-02', '2021', '46-15a', '7', 'Black')
+xero_1 = Xerox('Ксерокс', 'Canon', 'CaXe91-02', '2021', '46-15a', '7', 'Black')
 print(xero_1.carta_tovara('Струйный', 'A4'))
