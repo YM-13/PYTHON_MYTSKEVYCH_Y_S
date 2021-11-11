@@ -1,0 +1,31 @@
+Index: YM_8-7.v2.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/YM_8-7.v2.py b/YM_8-7.v2.py
+new file mode 100644
+--- /dev/null	
++++ b/YM_8-7.v2.py	
+@@ -0,0 +1,20 @@
++"""
++Реализовать проект «Операции с комплексными числами». Создайте класс «Комплексное
++число». Реализуйте перегрузку методов сложения и умножения комплексных чисел. Проверьте
++работу проекта. Для этого создаёте экземпляры класса (комплексные числа), выполните сложение и умножение созданных экземпляров. Проверьте корректность полученного
++результата.
++"""
++
++class Complex_num:
++
++    def init(self, z1, z2):
++    self.z1 = z1
++    self.z2 = z2
++    # @staticmethod
++    def addition(self):
++    s_1 = eval(self.z1)
++    s_2 = eval(self.z2)
++    return s_1 + s_2
++n = Complex_num('(61+2)', '(4+21)')
++print(n.addition())
++print(complex(61, 2) + complex(4, 21))
+\ No newline at end of file
