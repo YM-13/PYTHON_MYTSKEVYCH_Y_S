@@ -3,7 +3,6 @@ class Complex_num:
         self.z1 = z1
         self.z2 = z2
 
-    # @staticmethod
     def addition(self):
         s_1 = eval(self.z1)
         s_2 = eval(self.z2)
