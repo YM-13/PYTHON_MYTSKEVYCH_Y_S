@@ -9,11 +9,13 @@
 уникальные для каждого типа оргтехники.
 """
 
+class Warehouse:
+    dict =
 
-class Orgtehnika:
-    ci_orgteh = 'шт'
-    n_podcherc = '___________________________'
-    work_color = 'цветной/черно-белый'
+class Equipment:
+    unit_equipment = 'шт'
+    dividing_line = '___________________________'
+    equipment_color = 'цветной/черно-белый'
 
     def __init__(self, name_type, factory, model, year, articul, pce, color):
         self.name_type = name_type
