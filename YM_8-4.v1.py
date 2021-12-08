@@ -10,12 +10,12 @@
 """
 
 class Warehouse:
-    dict =
+    data_of_equipment = {}
 
 class Equipment:
     unit_equipment = 'шт'
     dividing_line = '___________________________'
-    equipment_color = 'цветной/черно-белый'
+    color_print_scan = 'цветной/черно-белый'
 
     def __init__(self, name_type, factory, model, year, articul, pce, color):
         self.name_type = name_type
@@ -28,9 +28,13 @@ class Equipment:
 
     def __str__(self):
         return (f'КАРТОЧКА ТОВАРА\nНаименование: {self.name_type}\nПроизводитель: {self.factory}\n'
-                f'Модель: {self.model}\nРежим работы: {Orgtehnika.work_color}\n'
+                f'Модель: {self.model}\nРежим работы: {Equipment.color_print_scan}\n'
                 f'Цвет устройства: {self.color}\nГод выпуска: {self.year}\nАртикул: {self.articul}\n'
-                f'Остаток на складе: {self.pce} {Orgtehnika.ci_orgteh}\n')
+                f'Остаток на складе: {self.pce} {Equipment.unit_equipment}\n')
+
+    def __add__(self, other):
+
+    def def remuve
 
 
 class Printer(Orgtehnika):
