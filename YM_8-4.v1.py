@@ -37,7 +37,7 @@ class Equipment:
     def def remuve
 
 
-class Printer(Orgtehnika):
+class Printer(Equipment):
     def __init__(self, name_type, factory, model, year, articul, pce, color, sposob_pechati, max_paper):
         super(Printer, self).__init__(name_type, factory, model, year, articul, pce, color)
         self.sposob_pechati = sposob_pechati
@@ -45,18 +45,18 @@ class Printer(Orgtehnika):
 
     def __str__(self):
         return super(Printer, self).__str__() + f'Способ печати: {self.sposob_pechati}\n' \
-                                                f'Формат бумаги: {self.max_paper}\n{Orgtehnika.n_podcherc}'
+                                                f'Формат бумаги: {self.max_paper}\n{Equipment.dividing_line}'
 
 
-class Scaner(Orgtehnika):
+class Scaner(Equipment):
     def __init__(self, name_type, factory, model, year, articul, pce, color):
         super(Scaner, self).__init__(name_type, factory, model, year, articul, pce, color)
 
     def __str__(self):
-        return super(Scaner, self).__str__() + f'{Orgtehnika.n_podcherc}'
+        return super(Scaner, self).__str__() + f'{Equipment.dividing_line}'
 
 
-class Xerox(Orgtehnika):
+class Xerox(Equipment):
     def __init__(self, name_type, factory, model, year, articul, pce, color, sposob_pechati, max_paper):
         super(Xerox, self).__init__(name_type, factory, model, year, articul, pce, color)
         self.sposob_pechati = sposob_pechati
@@ -64,7 +64,7 @@ class Xerox(Orgtehnika):
 
     def __str__(self):
         return super(Xerox, self).__str__() + f'Способ печати: {self.sposob_pechati}\n' \
-                                              f'Формат бумаги: {self.max_paper}\n{Orgtehnika.n_podcherc}'
+                                              f'Формат бумаги: {self.max_paper}\n{Equipment.dividing_line}'
 
 
 p = Printer('Принтер', 'HP', 'CW86', '2021', '45-89', '99', 'Black', 'LASER', 'A3')
