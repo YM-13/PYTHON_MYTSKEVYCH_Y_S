@@ -270,8 +270,11 @@
 # print(old_macdonald('macdonald'))
 #################################################################################
 # def revers_sentence(string_sentence):
-#     string_sentence = reversed(string_sentence.split())
-#     return ' '.join(string_sentence)
+#     string_sentence = string_sentence.split()
+#     reverse_word_list = string_sentence[::-1]
+#     return ' '.join(reverse_word_list)
+# #    string_sentence = reversed(string_sentence.split())
+# #    return ' '.join(string_sentence)
 #
 # print(revers_sentence('My love is it'))
 #################################################################################
@@ -350,3 +353,231 @@
 # print(fined_007([1, 0, 2, 4, 0, 5, 7]))
 # print(fined_007([1, 7, 2, 0, 4, 5, 0]))
 #################################################################################
+# def count_primes(n):
+#     list_of_prime_num = []
+#     couter_list = []
+#     for i in range(2, n + 1):
+#         for x in range(1, i + 1):
+#             if i % x == 0:
+#                 couter_list.append(x)
+#         if len(couter_list) == 2:
+#             list_of_prime_num.append(i)
+#             couter_list = []
+#         else:
+#             couter_list = []
+#     return f'{list_of_prime_num}\n{len(list_of_prime_num)}'
+#
+# print(count_primes(100))
+#########################  55  ##################################################
+# def splicer(mystring):
+#     if len(mystring) % 2 == 0:
+#         return 'EVEN'
+#     else:
+#         return mystring[0]
+# names = ['Andy', 'Eve', 'Sally']
+# print(list(map(splicer, names)))
+#################################################################################
+# def check_even(num):
+#     return num % 2 == 0
+#
+# mynums = [1, 2, 3, 4, 5, 6]
+# print(list(filter(check_even, mynums)))
+# for n in filter(check_even, mynums):
+#     print(n)
+###########  map + lambda    ######################################################
+# mynums = [1, 2, 3, 4, 5, 6]
+# m = list(map(lambda num: num ** 2, mynums))
+# print(m)
+###########  filter + lambda    ###################################################
+# mynums = [1, 2, 3, 4, 5, 6]
+# m = list(filter(lambda num: num % 2 == 0, mynums))
+# print(m)
+###########  filter + lambda + index - revers ######################################
+# names = ['Andy', 'Eve', 'Sally']
+# m = list(map(lambda x: x[::-1], names))
+# print(m)
+################  LEGB Rule  #######################################################
+# GLOBAL
+# name = 'THIS IS A GLOBAL STRING'
+# def greet():
+#     # ENCLOSING
+#     #name = 'Sammy'
+#
+#     def hello():
+#         # LOCAL
+#         #name = 'I AM A LOCAL'
+#         print('Hello ' + name)
+#     hello()
+#
+# greet()
+################  LEGB Rule  #######################################################
+# x = 50
+# def func(x):
+#     print(f'X is {x}')
+#     #LOCAL REASSIGNMENT
+#     x = 200
+#     print(f'I JUST {x}')
+# func(x)
+# print(x)
+################  LEGB Rule  #######################################################
+# x = 50
+# def func():
+#     global x
+#     print(f'X is {x}')
+#     #LOCAL REASSIGNMENT
+#     x = '!!!NEW VALUE!!!'
+#     print(f'I JUST CHANGE LOCAL TO GLOBAL X {x}')
+# print(x)
+# func()
+# print(x)
+################ !!! LEGB Rule !!! #################################################
+# x = 50
+# def func(x):
+#     print(f'X is {x}')
+#     #LOCAL REASSIGNMENT
+#     x = '!!!NEW VALUE!!!'
+#     print(f'I JUST CHANGE LOCAL TO GLOBAL X {x}')
+#     return x
+# #print(x)
+# x = func(x)
+# #print(x)
+# ЗАДАНИЕ 57 #######################################################################
+# def vol(rad): return 4 / 3 * 3.1415 * rad ** 3
+# print(vol(2))
+# ЗАДАНИЕ 57 #######################################################################
+# def ran_check(num, low, high): return num in range(low, high+1)
+# print(ran_check(3,1,10))
+# ЗАДАНИЕ 57 #######################################################################
+# def up_low(s):
+#     l_c = 0
+#     h_c = 0
+#     for i in [l for l in s if l.isalpha()]:
+#         if i.islower():
+#             l_c += 1
+#         else:
+#             h_c += 1
+#     return f'Letter in high case - {h_c}\nLetter in low case - {l_c}'
+#
+# print(up_low('Hello Mr. Rogers, how are you this fine Tuesday?'))
+# ИЛИ ИСПОЛЬЗУЯ DICTIONARY
+# def up_low(s):
+#     d={"upper":0, "lower":0}
+#     for c in s:
+#         if c.isupper():
+#             d["upper"]+=1
+#         elif c.islower():
+#             d["lower"]+=1
+#         else:
+#             pass
+#     print("Original String : ", s)
+#     print("No. of Upper case characters : ", d["upper"])
+#     print("No. of Lower case Characters : ", d["lower"])
+# ЗАДАНИЕ 57 #######################################################################
+# def unique_list(lst): return set(lst)
+# print(unique_list([1, 1, 1, 1, 2, 2, 3, 3, 3, 3, 4, 5]))
+# ИЛИ
+# def unique_list(lst):
+#     # Also possible to use list(set())
+#     x = []
+#     for a in lst:
+#         if a not in x:
+#             x.append(a)
+#     return x
+# ЗАДАНИЕ 57 #######################################################################
+# def multiply(numbers):
+#     n = 1
+#     for num in numbers:
+#         n = n * num
+#     return n
+#
+# print(multiply([1,2,3,-4]))
+# ИЛИ ################################ https://www.youtube.com/watch?v=2ghKShXWuSs
+# def multiply(my_num):
+#     n = 1
+#     for num in my_num:
+#         n *= num  # ТОЖЕ, ЧТО И n = n * num
+#     return n
+#
+# my_num = [1,2,3,-4]
+# print(multiply(my_num))
+# ЗАДАНИЕ 57 #######################################################################
+# def palindrome(s):
+#     f = 0
+#     s_1 = [l for l in s]
+#     s_2 = [l for l in reversed(s_1)]
+#     for item in zip(s_1, s_2):
+#         if item[0] != item[1]:
+#             f += 1
+#         else:
+#             pass
+#     return f == 0
+#
+# print(palindrome('heleh'))
+# ИЛИ
+# def palindrome(s):
+#     s = s.replace(' ', '')
+#     return s == s[::-1]
+# print(palindrome('helleh'))
+# ЗАДАНИЕ 57 #######################################################################
+# import string
+# def ispangram(str1, alphabet=string.ascii_lowercase):
+#     my_str = (''.join(str1.split())).lower()
+#     co = 0
+#     for i in alphabet:
+#         if i not in my_str:
+#             co += 1
+#         else:
+#             pass
+#     if co == 0:
+#         return True
+#     else:
+#         return False
+#
+# print(ispangram("The quick brown fox jumps over he lazy dog"))
+# ИЛИ
+import string
+
+def ispangram(str1, alphabet=string.ascii_lowercase):
+    alphaset = set(alphabet)
+    str1 = str1.replace(' ','')
+    str1 = str1.lower()
+    str1 = set(str1)
+    return str1 == alphaset
+
+
+print(ispangram("The quick brown fox jumps over the lazy dog"))
+# ############################# СТОРОННИЙ РЕСУРС
+# my_string = ['hello', 'hi', 'good morning']
+# print(list(map(str.upper, my_string)))
+# # lambda для создания анонимных функций:
+# my_string = ['hello', 'hi', 'good morning']
+# print(list(map(lambda num: num[::-1], my_string)))
+# ######
+# print(list(map(lambda num: num + '!', my_string)))
+# ######
+# b = list(map(list, my_string))
+# c = list(map(sorted, b))
+# print(c)
+# ######
+# s = list(map(int, input('!: ').split()))
+# print(s)
+#
+def display(row1, row2, row3):
+    print(row1)
+    print(row2)
+    print(row3)
+
+example_row = [1, 2, 3]
+
+display(example_row,example_row, example_row)
+# ИЛИ
+def display(row1, row2, row3):
+    print(row1)
+    print(row2)
+    print(row3)
+
+row1 = [' ', ' ', ' ']
+row2 = [' ', ' ', ' ']
+row3 = [' ', ' ', ' ']
+row2[2] = 5
+display(row1, row2, row3)
