@@ -535,17 +535,17 @@
 #
 # print(ispangram("The quick brown fox jumps over he lazy dog"))
 # ИЛИ
-import string
-
-def ispangram(str1, alphabet=string.ascii_lowercase):
-    alphaset = set(alphabet)
-    str1 = str1.replace(' ','')
-    str1 = str1.lower()
-    str1 = set(str1)
-    return str1 == alphaset
-
-
-print(ispangram("The quick brown fox jumps over the lazy dog"))
+# import string
+#
+# def ispangram(str1, alphabet=string.ascii_lowercase):
+#     alphaset = set(alphabet)
+#     str1 = str1.replace(' ','')
+#     str1 = str1.lower()
+#     str1 = set(str1)
+#     return str1 == alphaset
+#
+#
+# print(ispangram("The quick brown fox jumps over the lazy dog"))
 # ############################# СТОРОННИЙ РЕСУРС
 # my_string = ['hello', 'hi', 'good morning']
 # print(list(map(str.upper, my_string)))
@@ -561,23 +561,49 @@ print(ispangram("The quick brown fox jumps over the lazy dog"))
 # ######
 # s = list(map(int, input('!: ').split()))
 # print(s)
+##########################################
+# def display(row1, row2, row3):
+#     print(row1)
+#     print(row2)
+#     print(row3)
 #
-def display(row1, row2, row3):
-    print(row1)
-    print(row2)
-    print(row3)
+# example_row = [1, 2, 3]
+#
+# display(example_row,example_row, example_row)
+# # ИЛИ
+# def display(row1, row2, row3):
+#     print(row1)
+#     print(row2)
+#     print(row3)
+#
+# row1 = [' ', ' ', ' ']
+# row2 = [' ', ' ', ' ']
+# row3 = [' ', ' ', ' ']
+# row2[2] = 5
+# display(row1, row2, row3)
+####################################
+def user_choice():
+    choice = 'WRONG'
+    while choice.isdigit() == False:
+        choice = input("Insert the value:  ")
+        if choice.isdigit() == False:
+            print("It's incorrect data!")
+    return int(choice)
+print(user_choice())
+#
+def user_choice():
+    choice = 'WRONG'
+    acceptable_range = range(0,10)
+    within_range = False
+    while choice.isdigit() == False or within_range == False:
+        choice = input("Insert the value:  ")
+        if choice.isdigit() == False:
+            print("It's incorrect data!")
 
-example_row = [1, 2, 3]
-
-display(example_row,example_row, example_row)
-# ИЛИ
-def display(row1, row2, row3):
-    print(row1)
-    print(row2)
-    print(row3)
-
-row1 = [' ', ' ', ' ']
-row2 = [' ', ' ', ' ']
-row3 = [' ', ' ', ' ']
-row2[2] = 5
-display(row1, row2, row3)
+        if choice.isdigit() == True:
+            if int(choice) in acceptable_range:
+                within_range = True
+            else:
+                within_range = False
+    return int(choice)
+print(user_choice())
