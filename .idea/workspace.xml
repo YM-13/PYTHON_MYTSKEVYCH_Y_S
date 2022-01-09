@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa35be3e-a9a3-4cfa-9f19-329a7aefc5e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/UDEMY_ZERO_to_HERO_Game-2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UDEMY_ZERO_to_HERO_GAME.py" beforeDir="false" afterPath="$PROJECT_DIR$/UDEMY_ZERO_to_HERO_Game-1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ddd.py" beforeDir="false" afterPath="$PROJECT_DIR$/UDEMY_ZERO_to_HERO_Part-1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UDEMY_ZERO_to_HERO_Game-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/UDEMY_ZERO_to_HERO_Game-2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1461,103 +1459,123 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/UDEMY_ZERO_to_HERO_Game-2.py</url>
-          <line>3</line>
+          <line>2</line>
           <option name="timeStamp" value="916" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/UDEMY_ZERO_to_HERO_Game-2.py</url>
-          <line>18</line>
-          <option name="timeStamp" value="922" />
+          <line>48</line>
+          <option name="timeStamp" value="964" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/UDEMY_ZERO_to_HERO_Game-2.py</url>
-          <line>19</line>
-          <option name="timeStamp" value="924" />
+          <line>85</line>
+          <option name="timeStamp" value="970" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/UDEMY_ZERO_to_HERO_Game-2.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="925" />
+          <line>112</line>
+          <option name="timeStamp" value="973" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/UDEMY_ZERO_to_HERO_Game-2.py</url>
-          <line>23</line>
-          <option name="timeStamp" value="926" />
+          <line>96</line>
+          <option name="timeStamp" value="976" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/UDEMY_ZERO_to_HERO_Game-2.py</url>
-          <line>24</line>
-          <option name="timeStamp" value="927" />
+          <line>95</line>
+          <option name="timeStamp" value="977" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/UDEMY_ZERO_to_HERO_Game-2.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="928" />
+          <line>97</line>
+          <option name="timeStamp" value="978" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/UDEMY_ZERO_to_HERO_Game-2.py</url>
-          <line>26</line>
-          <option name="timeStamp" value="930" />
+          <line>98</line>
+          <option name="timeStamp" value="979" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/UDEMY_ZERO_to_HERO_Game-2.py</url>
-          <line>27</line>
-          <option name="timeStamp" value="931" />
+          <line>100</line>
+          <option name="timeStamp" value="982" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/UDEMY_ZERO_to_HERO_Game-2.py</url>
           <line>28</line>
-          <option name="timeStamp" value="932" />
+          <option name="timeStamp" value="983" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/UDEMY_ZERO_to_HERO_Game-2.py</url>
           <line>29</line>
-          <option name="timeStamp" value="933" />
+          <option name="timeStamp" value="984" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/UDEMY_ZERO_to_HERO_Game-2.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="934" />
+          <line>16</line>
+          <option name="timeStamp" value="985" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/UDEMY_ZERO_to_HERO_Game-2.py</url>
-          <line>34</line>
-          <option name="timeStamp" value="942" />
+          <line>86</line>
+          <option name="timeStamp" value="986" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/UDEMY_ZERO_to_HERO_Game-2.py</url>
-          <line>35</line>
-          <option name="timeStamp" value="943" />
+          <line>51</line>
+          <option name="timeStamp" value="992" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/UDEMY_ZERO_to_HERO_Game-2.py</url>
-          <line>37</line>
-          <option name="timeStamp" value="944" />
+          <line>52</line>
+          <option name="timeStamp" value="993" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/UDEMY_ZERO_to_HERO_Game-2.py</url>
-          <line>36</line>
-          <option name="timeStamp" value="945" />
+          <line>59</line>
+          <option name="timeStamp" value="994" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/UDEMY_ZERO_to_HERO_Game-2.py</url>
-          <line>38</line>
-          <option name="timeStamp" value="946" />
+          <line>60</line>
+          <option name="timeStamp" value="995" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/UDEMY_ZERO_to_HERO_Game-2.py</url>
-          <line>39</line>
-          <option name="timeStamp" value="947" />
+          <line>61</line>
+          <option name="timeStamp" value="996" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/UDEMY_ZERO_to_HERO_Game-2.py</url>
-          <line>40</line>
-          <option name="timeStamp" value="948" />
+          <line>62</line>
+          <option name="timeStamp" value="997" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/UDEMY_ZERO_to_HERO_Game-2.py</url>
-          <line>41</line>
-          <option name="timeStamp" value="949" />
+          <line>63</line>
+          <option name="timeStamp" value="998" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/UDEMY_ZERO_to_HERO_Game-2.py</url>
+          <line>81</line>
+          <option name="timeStamp" value="999" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/UDEMY_ZERO_to_HERO_Game-2.py</url>
+          <line>82</line>
+          <option name="timeStamp" value="1000" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/UDEMY_ZERO_to_HERO_Game-2.py</url>
+          <line>83</line>
+          <option name="timeStamp" value="1001" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/UDEMY_ZERO_to_HERO_Game-2.py</url>
+          <line>99</line>
+          <option name="timeStamp" value="1002" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
