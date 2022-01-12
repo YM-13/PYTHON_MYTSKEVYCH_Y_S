@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa35be3e-a9a3-4cfa-9f19-329a7aefc5e2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/UDEMY_ZERO_to_HERO_69-70.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UDEMY_ZERO_to_HERO_71.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UDEMY_ZERO_to_HERO_Game-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/UDEMY_ZERO_to_HERO_Game-2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UDEMY_ZERO_to_HERO_Part-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/UDEMY_ZERO_to_HERO_Part-1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,15 +52,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="proofread" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.UDEMY_ZERO_to_HERO_Game-2">
-    <configuration name="7777777777" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.UDEMY_ZERO_to_HERO_71">
+    <configuration name="UDEMY_ZERO_to_HERO_69-70" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PYTHON_MYTSKEVYCH_17.08.2021" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -70,7 +72,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7777777777.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UDEMY_ZERO_to_HERO_69-70.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -79,7 +81,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="9898" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="UDEMY_ZERO_to_HERO_71" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PYTHON_MYTSKEVYCH_17.08.2021" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -91,7 +93,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9898.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UDEMY_ZERO_to_HERO_71.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.UDEMY_ZERO_to_HERO_71" />
+        <item itemvalue="Python.UDEMY_ZERO_to_HERO_69-70" />
         <item itemvalue="Python.UDEMY_ZERO_to_HERO_Game-2" />
         <item itemvalue="Python.UDEMY_ZERO_to_HERO_Game-1" />
         <item itemvalue="Python.UDEMY_ZERO_to_HERO_Part-1" />
-        <item itemvalue="Python.9898" />
-        <item itemvalue="Python.7777777777" />
       </list>
     </recent_temporary>
   </component>
