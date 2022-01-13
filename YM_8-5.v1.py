@@ -5,11 +5,36 @@
 использовать любую подходящую структуру (например, словарь).
 """
 
-class Orgtehnika:
+"""
+В задаче со складом мы реализуем меню, для взаимодействия. По сути - это прототип программы учета товара,
+проверки наличия и перемещения. Пример меню: сколько на складе, сколько в подразделениях, добавить оргтехнику,
+переместить в подразделение, выйти.
 
-    ci_orgteh = 'шт'
-    n_podcherc = '___________________________'
-    work_color = 'цветной/черно-белый'
+Начните работу над проектом «Склад оргтехники». Создайте класс, описывающий склад. А также класс «Оргтехника»,
+который будет базовым для классов-наследников. Эти классы — конкретные типы оргтехники (принтер, сканер,
+ксерокс). В базовом классе определите параметры, общие для приведённых типов. В классах-наследниках реализуйте параметры,
+уникальные для каждого типа оргтехники.
+"""
+
+
+class Warehouse:
+    data_of_equipment = {}
+
+    # super().carta_tovara()
+    # str = super().carta_tovara()
+    # def __str__(self):
+    #     return ...
+
+# print(obj)
+# super().__str__()
+# Orgtehnika.__init__(self, name_type, factory, model, year, articul, pce, color)
+# super().__init__(self, name_type, factory, model, year, articul, pce, color)
+
+
+class Equipment(Warehouse):
+    unit_equipment = 'шт'
+    dividing_line = '___________________________'
+    color_print_scan = 'цветной/черно-белый'
 
     def __init__(self, name_type, factory, model, year, articul, pce, color):
         self.name_type = name_type
@@ -18,76 +43,143 @@ class Orgtehnika:
         self.year = year
         self.articul = articul
         self.pce = pce
-        #        self.max_format = max_format
         self.color = color
 
-    @classmethod
-    def derezer(cls, ):
-        gad_info = input('Накладная поставщика: \nНаименование: \nПроизводитель: \n')
-        raspred_dict = dict.fromkeys(['a', 'b', 'c'], gad_info)
-        a = raspred_dict['a']
-        if a == 1:
-            Printer.printer_dict[a1] = a
+    def __str__(self):
+        return (f'КАРТОЧКА ТОВАРА\nНаименование: {self.name_type}\nПроизводитель: {self.factory}\n'
+                f'Модель: {self.model}\nРежим работы: {Equipment.color_print_scan}\n'
+                f'Цвет устройства: {self.color}\nГод выпуска: {self.year}\nАртикул: {self.articul}\n'
+                f'Остаток на складе: {self.pce} {Equipment.unit_equipment}\n')
+
+    def __add__(self, other):
+
+    def remove(self):
 
 
-
-    def carta_tovara(self):
-        print(f'КАРТОЧКА ТОВАРА\nНаименование: {self.name_type}\nПроизводитель: {self.factory}\n'
-              f'Модель: {self.model}\nРежим работы: {Orgtehnika.work_color}\n'
-              f'Цвет устройства: {self.color}\nГод выпуска: {self.year}\nАртикул: {self.articul}\n'
-              f'Остаток на складе: {self.pce} {Orgtehnika.ci_orgteh}\n{Orgtehnika.n_podcherc}')
-
-
-class Printer(Orgtehnika):
-    def __init__(self, name_type, factory, model, year, articul, pce, color):
-        Orgtehnika.__init__(self, name_type, factory, model, year, articul, pce, color)
-
-    printer_dict = {'a1', 'b', 'c'}
-
-    def carta_tovara(self, sposob_pechati, max_paper):  # sposob_pechati
+class Printer(Equipment):
+    def __init__(self, sposob_pechati, max_paper):
+        Equipment.__init__(self)
         self.sposob_pechati = sposob_pechati
         self.max_paper = max_paper
-        return (f'КАРТОЧКА ТОВАРА\nНаименование: {self.name_type}\nПроизводитель: {self.factory}\n'
-                f'Способ печати: {self.sposob_pechati}\nМодель: {self.model}\nРежим работы: {Orgtehnika.work_color}\n'
-                f'Формат бумаги: {self.max_paper}\nЦвет устройства: {self.color}\nГод выпуска: {self.year}\nАртикул: {self.articul}\n'
-                f'Остаток на складе: {self.pce} {Orgtehnika.ci_orgteh}\n{Orgtehnika.n_podcherc}')
+
+    def __str__(self):
+        return super(Printer, self).__str__() + f'Способ печати: {self.sposob_pechati}\n' \
+                                                f'Формат бумаги: {self.max_paper}\n{Equipment.dividing_line}'
 
 
-class Scaner(Orgtehnika):
+class Scaner(Equipment):
     def __init__(self, name_type, factory, model, year, articul, pce, color):
-        Orgtehnika.__init__(self, name_type, factory, model, year, articul, pce, color)
+        super(Scaner, self).__init__(name_type, factory, model, year, articul, pce, color)
 
-    scaner_dict = {}
-
-    def carta_tovara(self, tip_scanera, max_doc_format):
-        self.tip_scanera = tip_scanera
-        self.max_doc_format = max_doc_format
-        return (f'КАРТОЧКА ТОВАРА\nНаименование: {self.name_type}\nПроизводитель: {self.factory}\n'
-                f'Тип сканера: {self.tip_scanera}\nМодель: {self.model}\nРежим работы: {Orgtehnika.work_color}\n'
-                f'Формат документа: {self.max_doc_format}\nЦвет устройства: {self.color}\nГод выпуска: {self.year}\nАртикул: {self.articul}\n'
-                f'Остаток на складе: {self.pce} {Orgtehnika.ci_orgteh}\n{Orgtehnika.n_podcherc}')
+    def __str__(self):
+        return super(Scaner, self).__str__() + f'{Equipment.dividing_line}'
 
 
-class Xerox(Orgtehnika):
-    def __init__(self, name_type, factory, model, year, articul, pce, color):
-        Orgtehnika.__init__(self, name_type, factory, model, year, articul, pce, color)
-
-    xero_dict = {}
-
-    def carta_tovara(self, sposob_pechati, max_paper):  # sposob_pechati
+class Xerox(Equipment):
+    def __init__(self, name_type, factory, model, year, articul, pce, color, sposob_pechati, max_paper):
+        super(Xerox, self).__init__(name_type, factory, model, year, articul, pce, color)
         self.sposob_pechati = sposob_pechati
         self.max_paper = max_paper
-        return (f'КАРТОЧКА ТОВАРА\nНаименование: {self.name_type}\nПроизводитель: {self.factory}\n'
-                f'Способ печати: {self.sposob_pechati}\nМодель: {self.model}\nРежим работы: {Orgtehnika.work_color}\n'
-                f'Формат документа: {self.max_paper}\nЦвет устройства: {self.color}\nГод выпуска: {self.year}\nАртикул: {self.articul}\n'
-                f'Остаток на складе: {self.pce} {Orgtehnika.ci_orgteh}\n{Orgtehnika.n_podcherc}')
 
-Orgtehnika.derezer()
-prin_1 = Printer('Принтер', 'HP', 'CW86', '2021', '45-89', '99', 'Black')
-print(prin_1.carta_tovara('LASER', 'A3'))
+    def __str__(self):
+        return super(Xerox, self).__str__() + f'Способ печати: {self.sposob_pechati}\n' \
+                                              f'Формат бумаги: {self.max_paper}\n{Equipment.dividing_line}'
 
-scan_1 = Scaner('Сканер', 'EPSON', 'YM897-18', '2020', '50-73', '5', 'White')
-print(scan_1.carta_tovara('Планшетный', 'A2'))
 
-xero_1 = Printer('Ксерокс', 'Canon', 'CaXe91-02', '2021', '46-15a', '7', 'Black')
-print(xero_1.carta_tovara('Струйный', 'A4'))
+p = Printer('Принтер', 'HP', 'CW86', '2021', '45-89', '99', 'Black', 'LASER', 'A3')
+print(p)
+
+s = Scaner('Сканер', 'EPSON', 'YM897-18', '2020', '50-73', '5', 'White')
+print(s)
+
+x = Xerox('Ксерокс', 'Canon', 'CaXe91-02', '2021', '46-15a', '7', 'Black', 'Струйный', 'A4')
+print(x)
+
+
+
+# class Orgtehnika:
+#
+#     ci_orgteh = 'шт'
+#     n_podcherc = '___________________________'
+#     work_color = 'цветной/черно-белый'
+#
+#     def __init__(self, name_type, factory, model, year, articul, pce, color):
+#         self.name_type = name_type
+#         self.factory = factory
+#         self.model = model
+#         self.year = year
+#         self.articul = articul
+#         self.pce = pce
+#         #        self.max_format = max_format
+#         self.color = color
+#
+#     @classmethod
+#     def derezer(cls, ):
+#         gad_info = input('Накладная поставщика: \nНаименование: \nПроизводитель: \n')
+#         raspred_dict = dict.fromkeys(['a', 'b', 'c'], gad_info)
+#         a = raspred_dict['a']
+#         if a == 1:
+#             Printer.printer_dict[a1] = a
+#
+#
+#
+#     def carta_tovara(self):
+#         print(f'КАРТОЧКА ТОВАРА\nНаименование: {self.name_type}\nПроизводитель: {self.factory}\n'
+#               f'Модель: {self.model}\nРежим работы: {Orgtehnika.work_color}\n'
+#               f'Цвет устройства: {self.color}\nГод выпуска: {self.year}\nАртикул: {self.articul}\n'
+#               f'Остаток на складе: {self.pce} {Orgtehnika.ci_orgteh}\n{Orgtehnika.n_podcherc}')
+#
+#
+# class Printer(Orgtehnika):
+#     def __init__(self, name_type, factory, model, year, articul, pce, color):
+#         Orgtehnika.__init__(self, name_type, factory, model, year, articul, pce, color)
+#
+#     printer_dict = {'a1', 'b', 'c'}
+#
+#     def carta_tovara(self, sposob_pechati, max_paper):  # sposob_pechati
+#         self.sposob_pechati = sposob_pechati
+#         self.max_paper = max_paper
+#         return (f'КАРТОЧКА ТОВАРА\nНаименование: {self.name_type}\nПроизводитель: {self.factory}\n'
+#                 f'Способ печати: {self.sposob_pechati}\nМодель: {self.model}\nРежим работы: {Orgtehnika.work_color}\n'
+#                 f'Формат бумаги: {self.max_paper}\nЦвет устройства: {self.color}\nГод выпуска: {self.year}\nАртикул: {self.articul}\n'
+#                 f'Остаток на складе: {self.pce} {Orgtehnika.ci_orgteh}\n{Orgtehnika.n_podcherc}')
+#
+#
+# class Scaner(Orgtehnika):
+#     def __init__(self, name_type, factory, model, year, articul, pce, color):
+#         Orgtehnika.__init__(self, name_type, factory, model, year, articul, pce, color)
+#
+#     scaner_dict = {}
+#
+#     def carta_tovara(self, tip_scanera, max_doc_format):
+#         self.tip_scanera = tip_scanera
+#         self.max_doc_format = max_doc_format
+#         return (f'КАРТОЧКА ТОВАРА\nНаименование: {self.name_type}\nПроизводитель: {self.factory}\n'
+#                 f'Тип сканера: {self.tip_scanera}\nМодель: {self.model}\nРежим работы: {Orgtehnika.work_color}\n'
+#                 f'Формат документа: {self.max_doc_format}\nЦвет устройства: {self.color}\nГод выпуска: {self.year}\nАртикул: {self.articul}\n'
+#                 f'Остаток на складе: {self.pce} {Orgtehnika.ci_orgteh}\n{Orgtehnika.n_podcherc}')
+#
+#
+# class Xerox(Orgtehnika):
+#     def __init__(self, name_type, factory, model, year, articul, pce, color):
+#         Orgtehnika.__init__(self, name_type, factory, model, year, articul, pce, color)
+#
+#     xero_dict = {}
+#
+#     def carta_tovara(self, sposob_pechati, max_paper):  # sposob_pechati
+#         self.sposob_pechati = sposob_pechati
+#         self.max_paper = max_paper
+#         return (f'КАРТОЧКА ТОВАРА\nНаименование: {self.name_type}\nПроизводитель: {self.factory}\n'
+#                 f'Способ печати: {self.sposob_pechati}\nМодель: {self.model}\nРежим работы: {Orgtehnika.work_color}\n'
+#                 f'Формат документа: {self.max_paper}\nЦвет устройства: {self.color}\nГод выпуска: {self.year}\nАртикул: {self.articul}\n'
+#                 f'Остаток на складе: {self.pce} {Orgtehnika.ci_orgteh}\n{Orgtehnika.n_podcherc}')
+#
+# Orgtehnika.derezer()
+# prin_1 = Printer('Принтер', 'HP', 'CW86', '2021', '45-89', '99', 'Black')
+# print(prin_1.carta_tovara('LASER', 'A3'))
+#
+# scan_1 = Scaner('Сканер', 'EPSON', 'YM897-18', '2020', '50-73', '5', 'White')
+# print(scan_1.carta_tovara('Планшетный', 'A2'))
+#
+# xero_1 = Printer('Ксерокс', 'Canon', 'CaXe91-02', '2021', '46-15a', '7', 'Black')
+# print(xero_1.carta_tovara('Струйный', 'A4'))

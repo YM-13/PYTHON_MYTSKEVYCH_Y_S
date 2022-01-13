@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fa35be3e-a9a3-4cfa-9f19-329a7aefc5e2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YM_8-4.v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/YM_8-4.v1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YM_8-5.v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/YM_8-5.v1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="UDEMY_OOP_Nik" />
+        <entry key="$PROJECT_DIR$" value="IVANOV_A" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />

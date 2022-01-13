@@ -34,7 +34,8 @@ class Equipment:
 
     def __add__(self, other):
 
-    def def remuve
+    def remove(self):
+
 
 
 class Printer(Equipment):
