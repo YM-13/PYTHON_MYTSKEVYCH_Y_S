@@ -1,0 +1,374 @@
+Index: .idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch	(revision a19efaa2b3cdc5b92a43d622c82836fed3c92469)
++++ /dev/null	(revision a19efaa2b3cdc5b92a43d622c82836fed3c92469)
+@@ -1,292 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"ab914c4a-b5b9-45e7-a98d-a330b617dd68\" name=\"Changes\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/YM_3-1.V2.py\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Python Script\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"lesson_2\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitSEFilterConfiguration\">\n    <file-type-list>\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\n      <filtered-out-file-type name=\"TAG\" />\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\n    </file-type-list>\n  </component>\n  <component name=\"ProjectId\" id=\"1x5hD45klRuGPaZq60RO97kk6lV\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n    <option name=\"showMembers\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"configurable.group.tools\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$\" />\n    </key>\n  </component>\n  <component name=\"RunManager\">\n    <configuration name=\"2-1.v1\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"PYTHON_MYTSKEVYCH_17.08.2021\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/2-1.v1.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"2-2.v1\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"PYTHON_MYTSKEVYCH_17.08.2021\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/2-2.v1.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"2-4.v1\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"PYTHON_MYTSKEVYCH_17.08.2021\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/2-4.v1.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"2-5.v1\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"PYTHON_MYTSKEVYCH_17.08.2021\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/2-5.v1.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"2-6.v1\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"PYTHON_MYTSKEVYCH_17.08.2021\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/2-6.v1.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"YM_3-2.v1\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\n      <module name=\"PYTHON_MYTSKEVYCH_17.08.2021\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/YM_3-2.v1.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Python.2-6.v1\" />\n        <item itemvalue=\"Python.2-5.v1\" />\n        <item itemvalue=\"Python.2-4.v1\" />\n        <item itemvalue=\"Python.2-2.v1\" />\n        <item itemvalue=\"Python.2-1.v1\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"ab914c4a-b5b9-45e7-a98d-a330b617dd68\" name=\"Changes\" comment=\"\" />\n      <created>1629650733615</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1629650733615</updated>\n    </task>\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision d5a62a96bc0f18eb0ea1bbeb06b9e5b167d475a9)
+-+++ b/.idea/workspace.xml	(date 1630496371738)
+-@@ -1,8 +1,17 @@
+- <?xml version="1.0" encoding="UTF-8"?>
+- <project version="4">
+-   <component name="ChangeListManager">
+--    <list default="true" id="ab914c4a-b5b9-45e7-a98d-a330b617dd68" name="Changes" comment="">
+--      <change afterPath="$PROJECT_DIR$/YM_3-1.V2.py" afterDir="false" />
+-+    <list default="true" id="fa35be3e-a9a3-4cfa-9f19-329a7aefc5e2" name="Changes" comment="">
+-+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/YM_3-2.v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/YM_3-2.v1.py" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/YM_3-2.v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/YM_3-2.v2.py" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/YM_3-3.v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/YM_3-3.v1.py" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/YM_3-3.v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/YM_3-3.v2.py" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/YM_3-3.v3.py" beforeDir="false" afterPath="$PROJECT_DIR$/YM_3-3.v3.py" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/YM_3-4.v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/YM_3-4.v1.py" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/YM_3-4.v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/YM_3-4.v2.py" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/YM_3-5.v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/YM_3-5.v1.py" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+-     </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-@@ -19,7 +28,7 @@
+-   <component name="Git.Settings">
+-     <option name="RECENT_BRANCH_BY_REPOSITORY">
+-       <map>
+--        <entry key="$PROJECT_DIR$" value="lesson_2" />
+-+        <entry key="$PROJECT_DIR$" value="lesson_3" />
+-       </map>
+-     </option>
+-     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-@@ -32,7 +41,7 @@
+-       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+-     </file-type-list>
+-   </component>
+--  <component name="ProjectId" id="1x5hD45klRuGPaZq60RO97kk6lV" />
+-+  <component name="ProjectId" id="1xPJNOapZzPkLvQS40cnZoeO3cj" />
+-   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+-   <component name="ProjectViewState">
+-     <option name="hideEmptyMiddlePackages" value="true" />
+-@@ -42,16 +51,10 @@
+-   <component name="PropertiesComponent">
+-     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+-     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+--    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+--    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+--  </component>
+--  <component name="RecentsManager">
+--    <key name="CopyFile.RECENT_KEYS">
+--      <recent name="$PROJECT_DIR$" />
+--    </key>
+-+    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.python" />
+-   </component>
+--  <component name="RunManager">
+--    <configuration name="2-1.v1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+-+  <component name="RunManager" selected="Python.test">
+-+    <configuration name="YM_3-4.v1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+-       <module name="PYTHON_MYTSKEVYCH_17.08.2021" />
+-       <option name="INTERPRETER_OPTIONS" value="" />
+-       <option name="PARENT_ENVS" value="true" />
+-@@ -63,7 +66,7 @@
+-       <option name="IS_MODULE_SDK" value="true" />
+-       <option name="ADD_CONTENT_ROOTS" value="true" />
+-       <option name="ADD_SOURCE_ROOTS" value="true" />
+--      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2-1.v1.py" />
+-+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/YM_3-4.v1.py" />
+-       <option name="PARAMETERS" value="" />
+-       <option name="SHOW_COMMAND_LINE" value="false" />
+-       <option name="EMULATE_TERMINAL" value="false" />
+-@@ -72,7 +75,7 @@
+-       <option name="INPUT_FILE" value="" />
+-       <method v="2" />
+-     </configuration>
+--    <configuration name="2-2.v1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+-+    <configuration name="YM_3-4.v2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+-       <module name="PYTHON_MYTSKEVYCH_17.08.2021" />
+-       <option name="INTERPRETER_OPTIONS" value="" />
+-       <option name="PARENT_ENVS" value="true" />
+-@@ -84,7 +87,7 @@
+-       <option name="IS_MODULE_SDK" value="true" />
+-       <option name="ADD_CONTENT_ROOTS" value="true" />
+-       <option name="ADD_SOURCE_ROOTS" value="true" />
+--      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2-2.v1.py" />
+-+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/YM_3-4.v2.py" />
+-       <option name="PARAMETERS" value="" />
+-       <option name="SHOW_COMMAND_LINE" value="false" />
+-       <option name="EMULATE_TERMINAL" value="false" />
+-@@ -93,7 +96,7 @@
+-       <option name="INPUT_FILE" value="" />
+-       <method v="2" />
+-     </configuration>
+--    <configuration name="2-4.v1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+-+    <configuration name="YM_3-5.v1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+-       <module name="PYTHON_MYTSKEVYCH_17.08.2021" />
+-       <option name="INTERPRETER_OPTIONS" value="" />
+-       <option name="PARENT_ENVS" value="true" />
+-@@ -105,7 +108,7 @@
+-       <option name="IS_MODULE_SDK" value="true" />
+-       <option name="ADD_CONTENT_ROOTS" value="true" />
+-       <option name="ADD_SOURCE_ROOTS" value="true" />
+--      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2-4.v1.py" />
+-+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/YM_3-5.v1.py" />
+-       <option name="PARAMETERS" value="" />
+-       <option name="SHOW_COMMAND_LINE" value="false" />
+-       <option name="EMULATE_TERMINAL" value="false" />
+-@@ -114,7 +117,7 @@
+-       <option name="INPUT_FILE" value="" />
+-       <method v="2" />
+-     </configuration>
+--    <configuration name="2-5.v1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+-+    <configuration name="YM_3-(6-7).v1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+-       <module name="PYTHON_MYTSKEVYCH_17.08.2021" />
+-       <option name="INTERPRETER_OPTIONS" value="" />
+-       <option name="PARENT_ENVS" value="true" />
+-@@ -126,7 +129,7 @@
+-       <option name="IS_MODULE_SDK" value="true" />
+-       <option name="ADD_CONTENT_ROOTS" value="true" />
+-       <option name="ADD_SOURCE_ROOTS" value="true" />
+--      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2-5.v1.py" />
+-+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/YM_3-(6-7).v1.py" />
+-       <option name="PARAMETERS" value="" />
+-       <option name="SHOW_COMMAND_LINE" value="false" />
+-       <option name="EMULATE_TERMINAL" value="false" />
+-@@ -135,7 +138,7 @@
+-       <option name="INPUT_FILE" value="" />
+-       <method v="2" />
+-     </configuration>
+--    <configuration name="2-6.v1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+-+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+-       <module name="PYTHON_MYTSKEVYCH_17.08.2021" />
+-       <option name="INTERPRETER_OPTIONS" value="" />
+-       <option name="PARENT_ENVS" value="true" />
+-@@ -147,28 +150,7 @@
+-       <option name="IS_MODULE_SDK" value="true" />
+-       <option name="ADD_CONTENT_ROOTS" value="true" />
+-       <option name="ADD_SOURCE_ROOTS" value="true" />
+--      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2-6.v1.py" />
+--      <option name="PARAMETERS" value="" />
+--      <option name="SHOW_COMMAND_LINE" value="false" />
+--      <option name="EMULATE_TERMINAL" value="false" />
+--      <option name="MODULE_MODE" value="false" />
+--      <option name="REDIRECT_INPUT" value="false" />
+--      <option name="INPUT_FILE" value="" />
+--      <method v="2" />
+--    </configuration>
+--    <configuration name="YM_3-2.v1" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+--      <module name="PYTHON_MYTSKEVYCH_17.08.2021" />
+--      <option name="INTERPRETER_OPTIONS" value="" />
+--      <option name="PARENT_ENVS" value="true" />
+--      <envs>
+--        <env name="PYTHONUNBUFFERED" value="1" />
+--      </envs>
+--      <option name="SDK_HOME" value="" />
+--      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+--      <option name="IS_MODULE_SDK" value="true" />
+--      <option name="ADD_CONTENT_ROOTS" value="true" />
+--      <option name="ADD_SOURCE_ROOTS" value="true" />
+--      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/YM_3-2.v1.py" />
+-+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+-       <option name="PARAMETERS" value="" />
+-       <option name="SHOW_COMMAND_LINE" value="false" />
+-       <option name="EMULATE_TERMINAL" value="false" />
+-@@ -179,22 +161,22 @@
+-     </configuration>
+-     <recent_temporary>
+-       <list>
+--        <item itemvalue="Python.2-6.v1" />
+--        <item itemvalue="Python.2-5.v1" />
+--        <item itemvalue="Python.2-4.v1" />
+--        <item itemvalue="Python.2-2.v1" />
+--        <item itemvalue="Python.2-1.v1" />
+-+        <item itemvalue="Python.test" />
+-+        <item itemvalue="Python.YM_3-5.v1" />
+-+        <item itemvalue="Python.YM_3-4.v2" />
+-+        <item itemvalue="Python.YM_3-4.v1" />
+-+        <item itemvalue="Python.YM_3-(6-7).v1" />
+-       </list>
+-     </recent_temporary>
+-   </component>
+-   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+-   <component name="TaskManager">
+-     <task active="true" id="Default" summary="Default task">
+--      <changelist id="ab914c4a-b5b9-45e7-a98d-a330b617dd68" name="Changes" comment="" />
+--      <created>1629650733615</created>
+-+      <changelist id="fa35be3e-a9a3-4cfa-9f19-329a7aefc5e2" name="Changes" comment="" />
+-+      <created>1630250748508</created>
+-       <option name="number" value="Default" />
+-       <option name="presentableId" value="Default" />
+--      <updated>1629650733615</updated>
+-+      <updated>1630250748508</updated>
+-     </task>
+-     <servers />
+-   </component>
+-@@ -210,4 +192,89 @@
+-     </option>
+-     <option name="oldMeFiltersMigrated" value="true" />
+-   </component>
+-+  <component name="XDebuggerManager">
+-+    <breakpoint-manager>
+-+      <breakpoints>
+-+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+-+          <url>file://$PROJECT_DIR$/YM_3-5.v1.py</url>
+-+          <line>10</line>
+-+          <option name="timeStamp" value="107" />
+-+        </line-breakpoint>
+-+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+-+          <url>file://$PROJECT_DIR$/YM_3-5.v1.py</url>
+-+          <line>16</line>
+-+          <option name="timeStamp" value="108" />
+-+        </line-breakpoint>
+-+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+-+          <url>file://$PROJECT_DIR$/YM_3-5.v1.py</url>
+-+          <line>17</line>
+-+          <option name="timeStamp" value="110" />
+-+        </line-breakpoint>
+-+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+-+          <url>file://$PROJECT_DIR$/YM_3-5.v1.py</url>
+-+          <line>11</line>
+-+          <option name="timeStamp" value="122" />
+-+        </line-breakpoint>
+-+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+-+          <url>file://$PROJECT_DIR$/YM_3-5.v1.py</url>
+-+          <line>15</line>
+-+          <option name="timeStamp" value="124" />
+-+        </line-breakpoint>
+-+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+-+          <url>file://$PROJECT_DIR$/YM_3-5.v1.py</url>
+-+          <line>13</line>
+-+          <option name="timeStamp" value="125" />
+-+        </line-breakpoint>
+-+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+-+          <url>file://$PROJECT_DIR$/test.py</url>
+-+          <option name="timeStamp" value="126" />
+-+        </line-breakpoint>
+-+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+-+          <url>file://$PROJECT_DIR$/test.py</url>
+-+          <line>1</line>
+-+          <option name="timeStamp" value="127" />
+-+        </line-breakpoint>
+-+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+-+          <url>file://$PROJECT_DIR$/test.py</url>
+-+          <line>2</line>
+-+          <option name="timeStamp" value="128" />
+-+        </line-breakpoint>
+-+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+-+          <url>file://$PROJECT_DIR$/test.py</url>
+-+          <line>3</line>
+-+          <option name="timeStamp" value="129" />
+-+        </line-breakpoint>
+-+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+-+          <url>file://$PROJECT_DIR$/test.py</url>
+-+          <line>4</line>
+-+          <option name="timeStamp" value="130" />
+-+        </line-breakpoint>
+-+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+-+          <url>file://$PROJECT_DIR$/test.py</url>
+-+          <line>9</line>
+-+          <option name="timeStamp" value="131" />
+-+        </line-breakpoint>
+-+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+-+          <url>file://$PROJECT_DIR$/test.py</url>
+-+          <line>11</line>
+-+          <option name="timeStamp" value="133" />
+-+        </line-breakpoint>
+-+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+-+          <url>file://$PROJECT_DIR$/test.py</url>
+-+          <line>12</line>
+-+          <option name="timeStamp" value="136" />
+-+        </line-breakpoint>
+-+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+-+          <url>file://$PROJECT_DIR$/test.py</url>
+-+          <line>13</line>
+-+          <option name="timeStamp" value="137" />
+-+        </line-breakpoint>
+-+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+-+          <url>file://$PROJECT_DIR$/test.py</url>
+-+          <line>10</line>
+-+          <option name="timeStamp" value="138" />
+-+        </line-breakpoint>
+-+      </breakpoints>
+-+    </breakpoint-manager>
+-+  </component>
+- </project>
+-\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/shelved.patch b/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/shelved.patch	(revision a19efaa2b3cdc5b92a43d622c82836fed3c92469)
++++ /dev/null	(revision a19efaa2b3cdc5b92a43d622c82836fed3c92469)
+@@ -1,39 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"fa35be3e-a9a3-4cfa-9f19-329a7aefc5e2\" name=\"Changes\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/YM_3-2.v1.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/YM_3-2.v1.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/YM_3-2.v2.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/YM_3-2.v2.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/YM_3-3.v1.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/YM_3-3.v1.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/YM_3-3.v2.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/YM_3-3.v2.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/YM_3-3.v3.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/YM_3-3.v3.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/YM_3-4.v1.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/YM_3-4.v1.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/YM_3-4.v2.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/YM_3-4.v2.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/YM_3-5.v1.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/YM_3-5.v1.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/test.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/test.py\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Python Script\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"lesson_3\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitSEFilterConfiguration\">\n    <file-type-list>\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\n      <filtered-out-file-type name=\"TAG\" />\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\n    </file-type-list>\n  </component>\n  <component name=\"ProjectId\" id=\"1xPJNOapZzPkLvQS40cnZoeO3cj\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n    <option name=\"showMembers\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"reference.idesettings.debugger.python\" />\n  </component>\n  <component name=\"RunManager\" selected=\"Python.test\">\n    <configuration name=\"YM_3-4.v1\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"PYTHON_MYTSKEVYCH_17.08.2021\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/YM_3-4.v1.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"YM_3-4.v2\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"PYTHON_MYTSKEVYCH_17.08.2021\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/YM_3-4.v2.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"YM_3-5.v1\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"PYTHON_MYTSKEVYCH_17.08.2021\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/YM_3-5.v1.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"YM_3-(6-7).v1\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"PYTHON_MYTSKEVYCH_17.08.2021\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/YM_3-(6-7).v1.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"test\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"PYTHON_MYTSKEVYCH_17.08.2021\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/test.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Python.test\" />\n        <item itemvalue=\"Python.YM_3-5.v1\" />\n        <item itemvalue=\"Python.YM_3-4.v2\" />\n        <item itemvalue=\"Python.YM_3-4.v1\" />\n        <item itemvalue=\"Python.YM_3-(6-7).v1\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"fa35be3e-a9a3-4cfa-9f19-329a7aefc5e2\" name=\"Changes\" comment=\"\" />\n      <created>1630250748508</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1630250748508</updated>\n    </task>\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"XDebuggerManager\">\n    <breakpoint-manager>\n      <breakpoints>\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\n          <url>file://$PROJECT_DIR$/YM_3-5.v1.py</url>\n          <line>10</line>\n          <option name=\"timeStamp\" value=\"107\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\n          <url>file://$PROJECT_DIR$/YM_3-5.v1.py</url>\n          <line>16</line>\n          <option name=\"timeStamp\" value=\"108\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\n          <url>file://$PROJECT_DIR$/YM_3-5.v1.py</url>\n          <line>17</line>\n          <option name=\"timeStamp\" value=\"110\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\n          <url>file://$PROJECT_DIR$/YM_3-5.v1.py</url>\n          <line>11</line>\n          <option name=\"timeStamp\" value=\"122\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\n          <url>file://$PROJECT_DIR$/YM_3-5.v1.py</url>\n          <line>15</line>\n          <option name=\"timeStamp\" value=\"124\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\n          <url>file://$PROJECT_DIR$/YM_3-5.v1.py</url>\n          <line>13</line>\n          <option name=\"timeStamp\" value=\"125\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\n          <url>file://$PROJECT_DIR$/test.py</url>\n          <option name=\"timeStamp\" value=\"126\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\n          <url>file://$PROJECT_DIR$/test.py</url>\n          <line>1</line>\n          <option name=\"timeStamp\" value=\"127\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\n          <url>file://$PROJECT_DIR$/test.py</url>\n          <line>2</line>\n          <option name=\"timeStamp\" value=\"128\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\n          <url>file://$PROJECT_DIR$/test.py</url>\n          <line>3</line>\n          <option name=\"timeStamp\" value=\"129\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\n          <url>file://$PROJECT_DIR$/test.py</url>\n          <line>4</line>\n          <option name=\"timeStamp\" value=\"130\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\n          <url>file://$PROJECT_DIR$/test.py</url>\n          <line>9</line>\n          <option name=\"timeStamp\" value=\"131\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\n          <url>file://$PROJECT_DIR$/test.py</url>\n          <line>11</line>\n          <option name=\"timeStamp\" value=\"133\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\n          <url>file://$PROJECT_DIR$/test.py</url>\n          <line>12</line>\n          <option name=\"timeStamp\" value=\"136\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\n          <url>file://$PROJECT_DIR$/test.py</url>\n          <line>13</line>\n          <option name=\"timeStamp\" value=\"137\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\n          <url>file://$PROJECT_DIR$/test.py</url>\n          <line>10</line>\n          <option name=\"timeStamp\" value=\"138\" />\n        </line-breakpoint>\n      </breakpoints>\n    </breakpoint-manager>\n  </component>\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision bbab837399a7548cb8321fb69142e9adc4b078ba)
+-+++ b/.idea/workspace.xml	(date 1630496221121)
+-@@ -1,18 +1,7 @@
+- <?xml version="1.0" encoding="UTF-8"?>
+- <project version="4">
+-   <component name="ChangeListManager">
+--    <list default="true" id="fa35be3e-a9a3-4cfa-9f19-329a7aefc5e2" name="Changes" comment="">
+--      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/YM_3-2.v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/YM_3-2.v1.py" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/YM_3-2.v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/YM_3-2.v2.py" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/YM_3-3.v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/YM_3-3.v1.py" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/YM_3-3.v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/YM_3-3.v2.py" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/YM_3-3.v3.py" beforeDir="false" afterPath="$PROJECT_DIR$/YM_3-3.v3.py" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/YM_3-4.v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/YM_3-4.v1.py" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/YM_3-4.v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/YM_3-4.v2.py" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/YM_3-5.v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/YM_3-5.v1.py" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+--    </list>
+-+    <list default="true" id="fa35be3e-a9a3-4cfa-9f19-329a7aefc5e2" name="Changes" comment="" />
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-@@ -28,7 +17,7 @@
+-   <component name="Git.Settings">
+-     <option name="RECENT_BRANCH_BY_REPOSITORY">
+-       <map>
+--        <entry key="$PROJECT_DIR$" value="lesson_3" />
+-+        <entry key="$PROJECT_DIR$" value="main" />
+-       </map>
+-     </option>
+-     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"da531a00-9a18-4785-a65e-a808fc5326b5\" name=\"Changes\" comment=\"\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Python Script\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"lesson_1\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitSEFilterConfiguration\">\n    <file-type-list>\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\n      <filtered-out-file-type name=\"TAG\" />\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\n    </file-type-list>\n  </component>\n  <component name=\"ProjectId\" id=\"1xKIHhxXiocfaaAb2yA556oTw1h\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n    <option name=\"showMembers\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable\" />\n  </component>\n  <component name=\"RunManager\" selected=\"Python.YM_3-2.v1\">\n    <configuration name=\"2-2.v1\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"/usr/local/bin/python3\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <module name=\"\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/2-2.v1.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"2-4.v1\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"/usr/local/bin/python3\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <module name=\"\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/2-4.v1.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"YM_3-1.V1\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"/usr/local/bin/python3\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <module name=\"\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/YM_3-1.V1.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"YM_3-1.v2\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"/usr/local/bin/python3\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <module name=\"\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/YM_3-1.v2.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"YM_3-2.v1\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"/usr/local/bin/python3\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <module name=\"\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/YM_3-2.v1.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"YM_3-3.v1\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"/usr/local/bin/python3\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <module name=\"\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/YM_3-3.v1.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Python.YM_3-2.v1\" />\n        <item itemvalue=\"Python.YM_3-3.v1\" />\n        <item itemvalue=\"Python.YM_3-1.v2\" />\n        <item itemvalue=\"Python.YM_3-1.V1\" />\n        <item itemvalue=\"Python.2-4.v1\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"da531a00-9a18-4785-a65e-a808fc5326b5\" name=\"Changes\" comment=\"\" />\n      <created>1630097267721</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1630097267721</updated>\n    </task>\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"0ac58f18-e520-44be-af80-b2e9dd6e05ea\">\n          <value>\n            <State />\n          </value>\n        </entry>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision a19efaa2b3cdc5b92a43d622c82836fed3c92469)
++++ b/.idea/workspace.xml	(date 1642092552665)
+@@ -31,7 +31,9 @@
+     </file-type-list>
+   </component>
+   <component name="ProjectId" id="1xKIHhxXiocfaaAb2yA556oTw1h" />
+-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
++    <ConfirmationsSetting value="2" id="Add" />
++  </component>
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+@@ -206,6 +208,5 @@
+         </entry>
+       </map>
+     </option>
+-    <option name="oldMeFiltersMigrated" value="true" />
+   </component>
+ </project>
+\ No newline at end of file
