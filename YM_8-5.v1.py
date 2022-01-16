@@ -45,15 +45,19 @@ class Equipment(Warehouse):
         self.pce = pce
         self.color = color
 
+
+    # def __add__(self, other):
+    #
+    # def remove(self):
+
+
     def __str__(self):
         return (f'КАРТОЧКА ТОВАРА\nНаименование: {self.name_type}\nПроизводитель: {self.factory}\n'
                 f'Модель: {self.model}\nРежим работы: {Equipment.color_print_scan}\n'
                 f'Цвет устройства: {self.color}\nГод выпуска: {self.year}\nАртикул: {self.articul}\n'
                 f'Остаток на складе: {self.pce} {Equipment.unit_equipment}\n')
 
-    def __add__(self, other):
 
-    def remove(self):
 
 
 class Printer(Equipment):
