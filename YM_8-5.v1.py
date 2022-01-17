@@ -20,23 +20,13 @@
 class Warehouse:
     data_of_equipment = {}
 
-    # super().carta_tovara()
-    # str = super().carta_tovara()
-    # def __str__(self):
-    #     return ...
 
-# print(obj)
-# super().__str__()
-# Orgtehnika.__init__(self, name_type, factory, model, year, articul, pce, color)
-# super().__init__(self, name_type, factory, model, year, articul, pce, color)
-
-
-class Equipment(Warehouse):
+class Equipment:
     unit_equipment = 'шт'
     dividing_line = '___________________________'
     color_print_scan = 'цветной/черно-белый'
 
-    def __init__(self, name_type, factory, model, year, articul, pce, color):
+    def __init__(self, name_type, factory, model, year, articul, pce, color, type_of_print=(), max_paper_size=()):
         self.name_type = name_type
         self.factory = factory
         self.model = model
@@ -44,60 +34,81 @@ class Equipment(Warehouse):
         self.articul = articul
         self.pce = pce
         self.color = color
+        self.type_of_print = type_of_print
+        self.max_paper_size = max_paper_size
 
+    def add(self):
+        d = dict.fromkeys(['Наименование', 'Производитель', 'Модель', 'Режим работы', 'Цвет устройства',
+                           'Год выпуска', 'Артикул', 'Остаток на складе'],
+                          [self.name_type, self.factory, self.model, Equipment.color_print_scan,
+                           self.color, self.year,self.articul,self.pce])
 
-    # def __add__(self, other):
-    #
-    # def remove(self):
+        # Warehouse.data_of_equipment = {'Наименование': self.name_type,
+        #                                'Производитель': self.factory,
+        #                                'Модель': self.model,
+        #                                'Режим работы': Equipment.color_print_scan,
+        #                                'Цвет устройства': self.color,
+        #                                'Год выпуска': self.year,
+        #                                'Артикул': self.articul,
+        #                                'Остаток на складе': self.pce
+        #                                }
+        return d
 
+    def remove(self):
+        pass
 
     def __str__(self):
-        return (f'КАРТОЧКА ТОВАРА\nНаименование: {self.name_type}\nПроизводитель: {self.factory}\n'
-                f'Модель: {self.model}\nРежим работы: {Equipment.color_print_scan}\n'
-                f'Цвет устройства: {self.color}\nГод выпуска: {self.year}\nАртикул: {self.articul}\n'
-                f'Остаток на складе: {self.pce} {Equipment.unit_equipment}\n')
-
-
+        my_list = []
+        for x, y in Warehouse.data_of_equipment:
+            my_list.append(zip[x, y])
+        my_str = (" ".join(my_list))
+        return my_str#(f'КАРТОЧКА ТОВАРА\nНаименование: {self.name_type}\nПроизводитель: {self.factory}\n'
+                # f'Модель: {self.model}\nРежим работы: {Equipment.color_print_scan}\n'
+                # f'Цвет устройства: {self.color}\nГод выпуска: {self.year}\nАртикул: {self.articul}\n'
+                # f'Остаток на складе: {self.pce} {Equipment.unit_equipment}\n')
 
 
 class Printer(Equipment):
-    def __init__(self, sposob_pechati, max_paper):
-        Equipment.__init__(self)
-        self.sposob_pechati = sposob_pechati
-        self.max_paper = max_paper
 
-    def __str__(self):
-        return super(Printer, self).__str__() + f'Способ печати: {self.sposob_pechati}\n' \
-                                                f'Формат бумаги: {self.max_paper}\n{Equipment.dividing_line}'
+    def __init__(self, name_type, factory, model, year, articul, pce, color, type_of_print, max_paper_size):
+        super(Printer, self).__init__(name_type, factory, model, year, articul, pce, color)
+        self.type_of_print = type_of_print
+        self.max_paper_size = max_paper_size
 
-
-class Scaner(Equipment):
-    def __init__(self, name_type, factory, model, year, articul, pce, color):
-        super(Scaner, self).__init__(name_type, factory, model, year, articul, pce, color)
-
-    def __str__(self):
-        return super(Scaner, self).__str__() + f'{Equipment.dividing_line}'
+    # def __str__(self):
+    #     return super(Printer, self).__str__() + f'Способ печати: {self.type_of_print}\n' \
+    #                                             f'Формат бумаги: {self.max_paper_size}\n{Equipment.dividing_line}'
 
 
-class Xerox(Equipment):
-    def __init__(self, name_type, factory, model, year, articul, pce, color, sposob_pechati, max_paper):
-        super(Xerox, self).__init__(name_type, factory, model, year, articul, pce, color)
-        self.sposob_pechati = sposob_pechati
-        self.max_paper = max_paper
+#class Scaner(Equipment):
+    # def __init__(self, name_type, factory, model, year, articul, pce, color):
+    #     super(Scaner, self).__init__(name_type, factory, model, year, articul, pce, color)
+    #
+    # def __str__(self):
+    #     return super(Scaner, self).__str__() + f'{Equipment.dividing_line}'
 
-    def __str__(self):
-        return super(Xerox, self).__str__() + f'Способ печати: {self.sposob_pechati}\n' \
-                                              f'Формат бумаги: {self.max_paper}\n{Equipment.dividing_line}'
+
+# class Xerox(Equipment):
+#     def __init__(self, name_type, factory, model, year, articul, pce, color, type_of_print, max_paper_size):
+#         super(Xerox, self).__init__(name_type, factory, model, year, articul, pce, color)
+#         self.type_of_print = type_of_print
+#         self.max_paper_size = max_paper_size
+#
+#     def __str__(self):
+#         return super(Xerox, self).__str__() + f'Способ печати: {self.type_of_print}\n' \
+#                                               f'Формат бумаги: {self.max_paper_size}\n{Equipment.dividing_line}'
 
 
 p = Printer('Принтер', 'HP', 'CW86', '2021', '45-89', '99', 'Black', 'LASER', 'A3')
+p.add()
 print(p)
+print(p.add())
 
-s = Scaner('Сканер', 'EPSON', 'YM897-18', '2020', '50-73', '5', 'White')
-print(s)
-
-x = Xerox('Ксерокс', 'Canon', 'CaXe91-02', '2021', '46-15a', '7', 'Black', 'Струйный', 'A4')
-print(x)
+# s = Scaner('Сканер', 'EPSON', 'YM897-18', '2020', '50-73', '5', 'White')
+# print(s)
+#
+# x = Xerox('Ксерокс', 'Canon', 'CaXe91-02', '2021', '46-15a', '7', 'Black', 'Струйный', 'A4')
+# print(x)
 
 
 
