@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa35be3e-a9a3-4cfa-9f19-329a7aefc5e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Jose_OOP_73-1_v1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jose_OOP_73-2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jose_OOP_73-3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Polacov.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jose_OOP_73-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Jose_OOP_73-1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YM_8-4.v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/YM_8-4.v1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YM_8-5.v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/YM_8-5.v1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YM_8-6.v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/YM_8-6.v1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="JOSE_Portilla_From_Zero_to_Hero_in_Python" />
+        <entry key="$PROJECT_DIR$" value="lesson_8_HW" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,7 +61,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.YM_8-5.v1">
+  <component name="RunManager" selected="Python.Jose_OOP_73-2">
     <configuration name="Jose_OOP_73-1_v1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PYTHON_MYTSKEVYCH_17.08.2021" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -443,12 +437,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/YM_8-6.v1.py</url>
-          <line>8</line>
+          <line>9</line>
           <option name="timeStamp" value="421" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/YM_8-6.v1.py</url>
-          <line>9</line>
+          <line>23</line>
           <option name="timeStamp" value="430" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">

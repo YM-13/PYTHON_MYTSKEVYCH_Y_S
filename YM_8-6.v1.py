@@ -7,3 +7,17 @@
 """
 
 
+class W():
+	warehause = {}
+	keys_dict = ['Наименование', 'Цена', 'Цвет']
+
+
+class A(W):
+	def __init__(self, name, price, color):
+		self.name = name
+		self.price = price
+		self.color = color
+
+	def fn_add(self):
+		values_dict = [self.name, self.price, self.color]
+		d = dict()
