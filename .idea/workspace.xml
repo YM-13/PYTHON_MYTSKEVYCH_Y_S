@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fa35be3e-a9a3-4cfa-9f19-329a7aefc5e2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YM_8-6.v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/YM_8-6.v1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +53,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -168,11 +167,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Jose_OOP_73-2" />
       <item itemvalue="Python.Jose_OOP_73-1_v1" />
+      <item itemvalue="Python.Jose_OOP_73-2" />
       <item itemvalue="Python.Jose_OOP_73-3" />
-      <item itemvalue="Python.YM_8-5.v1" />
       <item itemvalue="Python.YM_8-4.v1" />
+      <item itemvalue="Python.YM_8-5.v1" />
     </list>
     <recent_temporary>
       <list>
