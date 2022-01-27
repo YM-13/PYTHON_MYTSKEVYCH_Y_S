@@ -7,7 +7,7 @@
 """
 
 
-class W():
+class W:
 	warehause = {}
 	keys_dict = ['Наименование', 'Цена', 'Цвет']
 
